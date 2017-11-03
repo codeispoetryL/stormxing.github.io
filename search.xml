@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title><![CDATA[如何将web应用部署到云服务器]]></title>
+    <url>%2Fposts%2F%E5%A6%82%E4%BD%95%E5%B0%86web%E5%BA%94%E7%94%A8%E9%83%A8%E7%BD%B2%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8%2F</url>
+    <content type="text"><![CDATA[本文以阿里云服务器为例演示如何部署web项目。 购买服务器 登录阿里云官网，购买云服务器 ECS,学生优惠链接：https://promotion.aliyun.com/ntms/campus2017.html 预装操作系统暂时先选择windows的，后面也可以换。 如果选了windows操作系统，登录名就是administrator，还要为其设置一个登录密码。 配置云服务器 服务器购买好后点击进入控制台,找到刚购买的服务器。可以查看到公网ip，点击更多，然后点击安全组配置 点击配置规则后再点击添加安全组规则,按如图所示设置，添加一个3389端口，目的是能用远程桌面连接服务器。 以同样的方式再添加一个tomcat的8080端口，如果要开放哪个端口，就在此添加。 远程桌面连接打开windows的远程桌面，计算机名填写公网ip，用户名为administrator。 之后点连接就可以访问服务器了。 安装环境 要运行一个javaweb项目需要安装tomcat，jdk，mysql。将windows中的安装包复制进去即可安装。 不过复制进去太费时间。 在远程连接时，点击本地资源，详细信息里将本地磁盘勾选，服务器中就能直接访问本地磁盘了。 安装环境时需要用到的一些信息 jdk的环境变量：java_home：jdk目录；path：jdk的bin目录 导入sql文件,先建好数据库，然后在CMD中执行如下命令，相应信息替换为自己的。 如果提示mysql不是命令，则需在path中添加环境变量，变量值为mysqlserver的bin目录。或者cd进这个目录直接执行以下命令也可以。1mysql -h localhost -u root -p database_name &lt; c:\table_name.sql 如何导出sql文件可参考：http://www.cnblogs.com/cnkenny/archive/2009/04/22/1441297.html 启动tomcat服务 安装好环境后将web项目导出为war包放置到tomcat的webapps目录里，然后运行tomcat中bin目录里的startup.bat即可启动服务,启动tomcat后项目包会被自动解压。 在浏览器中输入http://localhost:8080/后面跟上web项目名和要访问的页面名即可访问到自己的页面。 将localhost替换为自己的公网ip，就可以在通过外网访问自己的项目了。 服务器操作系统为linux 服务器的操作系统为windows，操作很方便，但是过于占内存，并且稳定性没有Linux高，只不过linux的配置比较麻烦。 如果云服务器选择了lunux操作系统，那么需要借助工具连接远程服务器来传输文件，这里以x-shell为例。 连接的方式也有两种：1、 通过用户名和密码连接 2、 通过密匙连接 如果用用户名和密码连接，需要改云服务器的文件，可参考：http://www.cnblogs.com/OliverQin/p/7640228.html 创建密匙对 停掉云服务器后，更换系统盘，选择linux操作系统。 选择系统时为其设置一个密码 按如下操作创建密匙对 创建好后会自动下载一个pem格式的文件，保存好这个文件。 创建好密匙对后，绑定密匙对。 下载安装工具 下载安装x-shellhttps://cdn.netsarang.net/d4ef4801/Xshell-5.0.1333.exe 下载安装x-ftphttps://cdn.netsarang.net/80796d02/Xftp-5.0.1229p.exe 使用xshell和xftp可参考：http://www.jianshu.com/p/f728565206a6]]></content>
+      <tags>
+        <tag>服务器</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[文件引入]]></title>
+    <url>%2Fposts%2F%E6%96%87%E4%BB%B6%E5%BC%95%E5%85%A5%2F</url>
+    <content type="text"><![CDATA[BoorstrapBootstrap官网：http://v3.bootcss.com/BootCDN:http://www.bootcdn.cn/ 1234567891011121314&lt;head&gt; &lt;meta charset="UTF-8"&gt; &lt;!--兼容IE--&gt; &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt; &lt;!--适应移动设备--&gt; &lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt; &lt;title&gt;title&lt;/title&gt; &lt;!-- 引入Bootstrap 核心 CSS 文件 --&gt; &lt;link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"&gt; &lt;!--引入jQuery--&gt; &lt;script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"&gt;&lt;/script&gt; &lt;!-- 引入JavaScript核心文件--&gt; &lt;script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"&gt;&lt;/script&gt;&lt;/head&gt; Font AwesomeFont Awesome官网：http://www.fontawesome.com.cn/faicons/ 1&lt;link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"&gt; layui无BootCDN，需本地引入layui官网：http://www.layui.com/ pom.xmlmaven找包地址：http://mvnrepository.com/ 12345678910111213&lt;!-- https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api --&gt;&lt;dependency&gt; &lt;groupId&gt;javax.servlet&lt;/groupId&gt; &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt; &lt;version&gt;3.1.0&lt;/version&gt; &lt;scope&gt;provided&lt;/scope&gt;&lt;/dependency&gt;&lt;!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java --&gt;&lt;dependency&gt; &lt;groupId&gt;mysql&lt;/groupId&gt; &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt; &lt;version&gt;5.1.38&lt;/version&gt;&lt;/dependency&gt;]]></content>
+      <tags>
+        <tag>文件引入</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[快捷键]]></title>
+    <url>%2Fposts%2F%E5%BF%AB%E6%8D%B7%E9%94%AE%2F</url>
+    <content type="text"><![CDATA[已掌握的： 快捷键 介绍 Ctr+Y 删除光标所在行 Ctr+D 复制光标所在行并将其插入光标位置下面 Ctr+W 递进式选择代码块 原文链接：https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-introduce.md]]></content>
+      <tags>
+        <tag>快捷键</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[安装ubuntu后的一些基础设置]]></title>
+    <url>%2Fposts%2F%E5%AE%89%E8%A3%85ubuntu%E5%90%8E%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E8%AE%BE%E7%BD%AE%2F</url>
+    <content type="text"><![CDATA[本文在ubuntu16.04和17.04上测试通过，但不适用于17.10。 安装常用软件 说明1、可选择性安装，以下列表没有先后顺序。2、安装软件都是在终端中操作的，“ctrl+alt+T”或桌面右键都可打开终端。3、你可以直接复制本篇文章中的命令直接粘贴到终端，但你需要按“ctrl+shift+v”。4、另外 在本篇文章中，所下载的软件安装包都是默认存放在“下载”目录里的，所以你会经常看到“cd 下载”这条命令，这是因为安装软件需要进入到软件所在的目录里才能安装，你也可以直接在该目录里右键打开终端，即可省去该命令。5、在执行安装命令的时候经常会输入密码，输入的时候密码是不显示的，输完直接回车就可以了6、在执行安装命令的时候也经常会提示“您希望继续执行吗？[y/n]”，直接输入y后回车就可以了。 安装chrome浏览器依次运行以下四条命令即可完成chrome浏览器的安装 1234sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/wget -q -O - https://dl.google.com/linux/linux_signing_key.pub | sudo apt-key add -sudo apt-get updatesudo apt-get install google-chrome-stable 在搜索即可找到chrome浏览器。 安装搜狗输入法安装搜狗输入法有好几种，这里介绍一种简单的，用gdebi来安装。 进搜狗输入法官网下载“搜狗输入法for linux” 依次运行以下两条命令，用来安装gdebi 12sudo apt-get install -fsudo apt-get install gdebi 运行命令安装搜狗输入法 12cd 下载sudo gdebi program_name.deb “program_name.deb”指的是你搜狗输入法安装包的文件名，可在下载目录里面查看。 重启系统即可使用搜狗输入法。 安装微信 下载安装包，下载链接 下载可能有点慢，耐心等待即可。 将下载的文件解压出来。 打开解压出来的文件夹，双击运行里面的“electronic-wechat”就可以直接使用微信了。 右键左侧图标栏里的微信，点击锁定到启动器。 安装网易云音乐 在官网下载“网易云音乐 for linux” 依次运行以下四条命令即可完成安装。 1234cd 下载sudo dpkg -i program_name.deb sudo apt-get install -fsudo dpkg -i program_name.deb “program_name.deb”指的是刚下载的安装包的名字，可在文件属性里面复制过来。以上四条命令有重复的，但不可省略。 安装VCL视频播放器ubuntu自带的播放器很多视频格式不支持。依次运行以下四条命令即可完成安装。 123sudo add-apt-repository ppa:videolan/master-dailysudo apt-get updatesudo apt-get install vlc 打开系统设置——详细信息——默认应用程序——视频，改成VCL即可。 安装QQ安装QQ的方法有很多，这里介绍安装winneQQ的方法。 依次运行以下三条命令，用来安装winne 123sudo add-apt-repository ppa:wine/wine-builds sudo apt-get updatesudo apt-get install winehq-devel 下载wineQQ 下载地址：https://pan.baidu.com/s/1eSozgUQ 安装wineQQ依次运行以下两条命令 12cd 下载tar xvf wineQQ8.9_19990.tar.xz -C ~/ 到这里wineQQ就按装好了，在搜索中输入qq即可找到。另外首次运行QQ会提示安装一些组件，直接点安装即可。 安装WPS 在官网下载“wps for linux”,下载deb格式的。 安装wps，运行以下命令即可，之后搜索wps可找到程序。 1sudo dpkg -i program_name.deb “program_name”是wps安装包的名字。 如果出错，执行sudo apt-get install -f ，再执行安装即可。 wps字体缺失问题打开wps会出现如下报错。 下载缺失字体包 下载地址：https://pan.baidu.com/s/1pKHCMp1 我是将其下载到了系统的“下载”这个目录里，直接在“下载”目录里右键打开终端，运行以下两条命令即可（避免出错，直接复制）。 12sudo unzip wps_symbol_fonts.zipsudo cp mtextra.ttf symbol.ttf WEBDINGS.TTF wingding.ttf WINGDNG2.ttf WINGDNG3.ttf /usr/share/fonts 之后下载文件夹解压出的文件可删除。 安装IntelliJ IDEA 官网下载”IntelliJ IDEA for linux“ 将下载的文件双击打开，把里面的文件夹拖放到“下载”目录里，然后打开idea的bin目录，在该目录的空白处右键点打开终端。 在终端中输入执行以下命令即可打开idea。 1./idea.sh 在软件激活界面输入http://idea.liyang.io即可完成激活(图片中的已过期)，之后即可正常使用。 别忘了打开软件的时候，在左侧图标栏里右键点击将其锁定到启动器，方便下次使用。 JetBrains公司的其他软件安装同上。 安装jdkjdk有两种，一种openjdk（ubuntu自带），一种oraclejdk安装openjdk即可。 执行以下命令即可完成安装 1sudo apt install openjdk-8-jdk 输入java -version可查看版本 如果想安装Oraclejdk，可参考：http://topspeedsnail.com/ubuntu16-install-java-jdk/ 安装MySQL 终端执行sudo apt-get install mysql-server后会提示设置root账户的密码，设置好后就安装成功了。 执行mysql -uroot -p密码即可登录数据库，ctr+z可退出。 如： 安装并更新Git到最新版 依次运行以下四条命令 1234sudo apt-get install gitsudo add-apt-repository ppa:git-core/ppasudo apt updatesudo apt install git 输入git --version查看版本 安装最新版node.js和npm ubuntu自带有node，但版本过旧，在官网下载node.js安装包。有两个版本，任选一个即可，第一个是稳定版，第二个是最新版。 将下载的文件解压出来，进入到bin目录，在此目录里右键打开终端，执行以下两条命令即可完成安装。（最好直接复制） 12sudo ln -s node /usr/local/bin/nodesuso ln -s npm /usr/local/bin/npm 执行node -v和npm -v可查看版本。 科学上网 安装shandowsocks依次运行以下三条命令即可完成安装，之后可在搜索中找到软件。 123sudo add-apt-repository ppa:hzwhuang/ss-qt5sudo apt-get updatesudo apt-get install shadowsocks-qt5 配置节点信息 打开软件，点连接——添加——手动，填写代理节点信息。 然后点“连接”。 安装配置浏览器插件 下载浏览器插件：下载地址：https://pan.baidu.com/s/1eSF35gm 打开chrome浏览器，在浏览器地址栏输入“chrome://extensions/”，将刚下载的插件拖放进去，按提示操作即可完成安装。 下载浏览器插件配置脚本下载地址：https://pan.baidu.com/s/1kVcdJfh 按如图所示点击“从备份文件恢复”将配置脚本导入插件 将端口改为“1080”，然后点“应用选项” 点击插件选择“自动切换”，之后即可科学上网。 同理火狐浏览器也可以这样设置。 设置开机自启在ubuntu software里搜索并安装“startup” 打开startup，将shadowsocks添加到开机启动项即可。 调整win10和ubuntu双系统启动顺序（可选设置） 前言：装了win10和ubuntu双系统后每次开机默认进Ubuntu，如果不操作会等待10秒，对于初学者来说，win10会用的比较多一点。况且不点回车要等待10秒这个时间也是过长的。 调整等待时间和系统启动顺序在终端中执行以下命令，即可自动打开grub目录并为“grub.cfg”文件获取root权限。 sudo nautilus /boot/grub/grub.cfg 双击打开grub.cfg文件 set timeout的值就是等待时间，可改为3或者1，本文件有很多“set timeout 注意只改图片中的这一个”。 set default的值为为默认启动系统的顺序，从0开始计算，ubuntu系统在第一位，值就是0，windows是在第三位，将值改为2即可。 改完值后，保存并运行以下命令更新grub文件 sudo update-grub 同步双系统时间 如果进ubuntu之后再进windows发现winndwos时间不准了，则在ubuntu里依次运行以下3条命令即可解决。 123sudo apt-get install ntpdatesudo ntpdate time.windows.comsudo hwclock --localtime --systohc]]></content>
+      <tags>
+        <tag>ubuntu</tag>
+        <tag>科学上网</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Hexo+GitHub Pages搭建个人博客]]></title>
+    <url>%2Fposts%2FHexo%2BGitHub%20Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%2F</url>
+    <content type="text"><![CDATA[]]></content>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>Github Pages</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Next主题配置及优化]]></title>
+    <url>%2Fposts%2FNext%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E5%8F%8A%E4%BC%98%E5%8C%96%2F</url>
+    <content type="text"><![CDATA[感谢大佬们的文章，学习到了很多。 参考文章：http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.htmlhttp://theme-next.iissnan.com/theme-settings.htmlhttp://www.jianshu.com/p/86557c34b671http://www.jianshu.com/p/8c0707ce5da4https://hexo.io/zh-cn/docs/permalinks.htmlhttp://blog.csdn.net/MasterAnt_D/article/details/56839222http://www.wesker926.com/2017/09/27/Next%E4%B8%BB%E9%A2%98%E6%A0%87%E7%AD%BE%E9%A1%B5%E6%A0%87%E7%AD%BE%E9%9A%8F%E6%9C%BA%E9%A2%9C%E8%89%B2%E5%92%8C%E5%A4%A7%E5%B0%8F%E7%9A%84%E8%AE%BE%E7%BD%AE%E6%96%B9%E6%B3%95/]]></content>
+      <tags>
+        <tag>Next主题，SEO</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[Git,GitHub,SSH]]></title>
+    <url>%2Fposts%2FGit%2CGitHub%2CSSH%2F</url>
+    <content type="text"><![CDATA[遗漏的内容： 查看远程分支 1git branch -a 删除远程分支 1git push origin --delete &lt;branchName&gt; 清理仓库 123456git checkout --orphan latest_branchgit add -Agit commit -am &quot;commit message&quot;git branch -D mastergit branch -m mastergit push -f origin master 强制push 1git push origin master -f 将已被track的文件添加到.gitignore中 123git rm --cached &apos;文件或目录&apos;git add .git commit -m &apos;更新.gitignore&apos;]]></content>
+      <tags>
+        <tag>git</tag>
+        <tag>github</tag>
+        <tag>ssh</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title><![CDATA[图集]]></title>
+    <url>%2Fposts%2F%E5%9B%BE%E9%9B%86%2F</url>
+    <content type="text"><![CDATA[Git，GitHub，SSHhttp://oy1owcclz.bkt.clouddn.com/Git,GitHub.png Hexo+GitHub Pages搭建个人博客http://oy1owcclz.bkt.clouddn.com/Hexo%20%20+%20Github%20Pages.png Next主题配置及优化http://oy1owcclz.bkt.clouddn.com/Next%E4%B8%BB%E9%A2%98.png]]></content>
+      <tags>
+        <tag>图集</tag>
+      </tags>
+  </entry>
+</search>

@@ -1,0 +1,1502 @@
+<!DOCTYPE html>
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-Hans">
+<head>
+  <style>
+    /*.tags0{font-size: 12px !important;color: #ccc !important;}灰*/
+    .tags00{font-size: 12px !important;color: #666 !important;}/*黑*/
+    /*.tags01{font-size: 12px !important;color: rgb(255,128,128) !important;}红
+    .tags02{font-size: 12px !important;color: rgb(128,255,128) !important;}绿
+    .tags03{font-size: 12px !important;color: rgb(128,128,255) !important;}蓝
+    .tags04{font-size: 12px !important;color: rgb(255,216,128) !important;}黄*/
+    /*.tags10{font-size: 20px !important;color: #666 !important;}*/
+    .tags11{font-size: 20px !important;color: rgb(255,128,128) !important;}
+    .tags12{font-size: 20px !important;color: rgb(128,255,128) !important;}
+    .tags13{font-size: 20px !important;color: rgb(128,128,255) !important;}
+    .tags14{font-size: 20px !important;color: rgb(255,216,128) !important;}
+    /*.tags20{font-size: 40px !important;color: #666 !important;}*/
+    .tags21{font-size: 40px !important;color: rgb(255,128,128) !important;}
+    .tags22{font-size: 40px !important;color: rgb(128,255,128) !important;}
+    .tags23{font-size: 40px !important;color: rgb(128,128,255) !important;}
+    .tags24{font-size: 40px !important;color: rgb(255,216,128) !important;}
+    </style>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+<meta name="theme-color" content="#222">
+<script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+<link href="//cdn.bootcss.com/pace/1.0.2/themes/pink/pace-theme-flash.css" rel="stylesheet">
+<script>
+    (function(){
+        if(''){
+            if (prompt('请输入文章密码') !== ''){
+                alert('密码错误！');
+                history.back();
+            }
+        }
+    })();
+</script>
+<style>
+    .pace .pace-progress {
+        background: #1E92FB; /*进度条颜色*/
+        height: 3px;
+    }
+    .pace .pace-progress-inner {
+         box-shadow: 0 0 10px #1E92FB, 0 0 5px     #1E92FB; /*阴影颜色*/
+    }
+    .pace .pace-activity {
+        border-top-color: #1E92FB;    /*上边框颜色*/
+        border-left-color: #1E92FB;    /*左边框颜色*/
+    }
+</style>
+
+
+  
+  
+    
+    
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+  <link href="/lib/pace/.min.css?v=1.0.2" rel="stylesheet">
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+  <meta name="google-site-verification" content="I5u3lTmkbFWx59-BYZEy3fv-xQ5lLPWTrvECj-6jNro" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.3" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=5.1.3">
+
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/logo.ico?v=5.1.3">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=5.1.3" color="#222">
+
+
+
+
+
+  <meta name="keywords" content="ubuntu,科学上网," />
+
+
+
+
+
+  <link rel="alternate" href="/atom.xml" title="StormXing" type="application/atom+xml" />
+
+
+
+
+
+
+<meta name="description" content="本文在ubuntu16.04和17.04上测试通过，但不适用于17.10。 安装常用软件 说明1、可选择性安装，以下列表没有先后顺序。2、安装软件都是在终端中操作的，“ctrl+alt+T”或桌面右键都可打开终端。3、你可以直接复制本篇文章中的命令直接粘贴到终端，但你需要按“ctrl+shift+v”。4、另外 在本篇文章中，所下载的软件安装包都是默认存放在“下载”目录里的，所以你会经常看到“cd">
+<meta name="keywords" content="ubuntu,科学上网">
+<meta property="og:type" content="article">
+<meta property="og:title" content="安装ubuntu后的一些基础设置">
+<meta property="og:url" content="http://www.stormxing.com/posts/安装ubuntu后的一些基础设置/index.html">
+<meta property="og:site_name" content="StormXing">
+<meta property="og:description" content="本文在ubuntu16.04和17.04上测试通过，但不适用于17.10。 安装常用软件 说明1、可选择性安装，以下列表没有先后顺序。2、安装软件都是在终端中操作的，“ctrl+alt+T”或桌面右键都可打开终端。3、你可以直接复制本篇文章中的命令直接粘贴到终端，但你需要按“ctrl+shift+v”。4、另外 在本篇文章中，所下载的软件安装包都是默认存放在“下载”目录里的，所以你会经常看到“cd">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-97b3667f0c9acf06.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-4ae32e504d8d8721.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-0107c83fa3c90269.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-116b1c5b4e0da03a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-b6561cedbd37758c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-ea2178cd90ebecb5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-1961d93e31c5cb84.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-9ca1dfc677fd52ba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-bce07c9f26bb61db.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-818fac5dc21d1e3f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-6f691019b1c78ea6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-4d0129dff261ef73.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-8c19b2b00820300d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-b29aaf8e180f09f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-6efa2f2b5a947c12.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-fc93baf8e33af2c3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-d2d8c0c9e8d9f927.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-56f1103f643d0313.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-24c3c6d209a55a14.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-30fed01b1baf64f0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-2a08297a7be77610.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-0f13fd0de0543bc5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-f2b55d1481accde8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-9d738e58650dc13a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-b31530ec2a48c544.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-d032eb8576a8ed0e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-4270706f50f6469e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-3451043801496dd2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-00aba73ffcb8e69e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-5f4cd6ceec776e30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:image" content="http://upload-images.jianshu.io/upload_images/5349051-4b8d8d20bb142d7f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+<meta property="og:updated_time" content="2017-10-30T03:16:35.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="安装ubuntu后的一些基础设置">
+<meta name="twitter:description" content="本文在ubuntu16.04和17.04上测试通过，但不适用于17.10。 安装常用软件 说明1、可选择性安装，以下列表没有先后顺序。2、安装软件都是在终端中操作的，“ctrl+alt+T”或桌面右键都可打开终端。3、你可以直接复制本篇文章中的命令直接粘贴到终端，但你需要按“ctrl+shift+v”。4、另外 在本篇文章中，所下载的软件安装包都是默认存放在“下载”目录里的，所以你会经常看到“cd">
+<meta name="twitter:image" content="http://upload-images.jianshu.io/upload_images/5349051-97b3667f0c9acf06.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Mist',
+    version: '5.1.3',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: true,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    duoshuo: {
+      userId: '0',
+      author: '博主'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://www.stormxing.com/posts/安装ubuntu后的一些基础设置/"/>
+
+
+
+
+
+  <title>安装ubuntu后的一些基础设置 | StormXing</title>
+  
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+  var languages = new Array("C","C++","Java","C#","Python","HTML","CSS","JavaScript","SQL");
+  var randoms = new Array(4,3,2,1,3,2,1,4,2,1,3,4,1,2,3,4);
+  $(document).ready(function(){
+  var tags_all = $(".tag-cloud-tags a");
+  tags_all.each(function(){
+    var x = parseInt(Math.random()*3);
+    if(x > 0){
+      x = 1;
+    }
+    for(var i = 0;i<languages.length;i++){
+      if($(this).text() == languages[i]){
+          x = 2;
+        break;
+      }
+    }
+    var y =0;
+    if(x != 0){
+      y = parseInt(Math.random()*16);
+      y = randoms[y];
+    }
+    $(this).addClass("tags"+x+y);
+  });
+  });
+  </script>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">StormXing</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle">StormXing</p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://www.stormxing.com/posts/安装ubuntu后的一些基础设置/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="StormXing">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/头像.jpg">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="StormXing">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">安装ubuntu后的一些基础设置</h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">更新于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-10-27T12:34:06+08:00">
+                2017-10-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p>本文在ubuntu16.04和17.04上测试通过，但不适用于17.10。</p>
+<h2 id="安装常用软件"><a href="#安装常用软件" class="headerlink" title="安装常用软件"></a>安装常用软件</h2><hr>
+<h3 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h3><p><em>1、<strong>可选择性安装，以下列表没有先后顺序。</strong><br>2、安装软件都是在终端中操作的，“ctrl+alt+T”或桌面右键都可打开终端。<br>3、你可以直接复制本篇文章中的命令直接粘贴到终端，但你需要按“ctrl+shift+v”。<br>4、另外 <strong>在本篇文章中</strong>，所下载的软件安装包都是默认存放在“下载”目录里的，所以你会经常看到“cd 下载”这条命令，这是因为安装软件需要进入到软件所在的目录里才能安装，<strong>你也可以直接在该目录里右键打开终端，即可省去该命令。</strong><br>5、在执行安装命令的时候经常会输入密码，输入的时候密码是不显示的，输完直接回车就可以了<br>6、在执行安装命令的时候也经常会提示“您希望继续执行吗？[y/n]”，直接输入y后回车就可以了。</em><br><a id="more"></a></p>
+<hr>
+<h3 id="安装chrome浏览器"><a href="#安装chrome浏览器" class="headerlink" title="安装chrome浏览器"></a>安装chrome浏览器</h3><p>依次运行以下四条命令即可完成chrome浏览器的安装</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/</div><div class="line">wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -</div><div class="line">sudo apt-get update</div><div class="line">sudo apt-get install google-chrome-stable</div></pre></td></tr></table></figure>
+<p>在搜索即可找到chrome浏览器。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-97b3667f0c9acf06.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="chrome浏览器.png"></p>
+<h3 id="安装搜狗输入法"><a href="#安装搜狗输入法" class="headerlink" title="安装搜狗输入法"></a>安装搜狗输入法</h3><p><strong>安装搜狗输入法有好几种，这里介绍一种简单的，用gdebi来安装。</strong></p>
+<ul>
+<li>进搜狗输入法官网下载“<a href="http://pinyin.sogou.com/linux/" target="_blank" rel="external">搜狗输入法for linux</a>”</li>
+<li>依次运行以下两条命令，用来安装gdebi</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install -f</div><div class="line">sudo apt-get install gdebi</div></pre></td></tr></table></figure>
+<ul>
+<li>运行命令安装搜狗输入法</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd 下载</div><div class="line">sudo gdebi program_name.deb</div></pre></td></tr></table></figure>
+<p><em>“program_name.deb”指的是你搜狗输入法安装包的文件名，可在下载目录里面查看。</em></p>
+<ul>
+<li>重启系统即可使用搜狗输入法。</li>
+</ul>
+<h3 id="安装微信"><a href="#安装微信" class="headerlink" title="安装微信"></a>安装微信</h3><ul>
+<li>下载安装包，<a href="https://github-production-release-asset-2e65be.s3.amazonaws.com/51994692/10058440-6a33-11e6-9d61-72bc7070d0f1?X-Amz-Algorithm=AWS4-HMAC-SHA256&amp;X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20171027%2Fus-east-1%2Fs3%2Faws4_request&amp;X-Amz-Date=20171027T082400Z&amp;X-Amz-Expires=300&amp;X-Amz-Signature=00a594f59700014be6f6c56af4ef90461ab18f3cc979be23ef35b191c90c2b49&amp;X-Amz-SignedHeaders=host&amp;actor_id=31409671&amp;response-content-disposition=attachment%3B%20filename%3Dlinux-x64.tar.gz&amp;response-content-type=application%2Foctet-stream" target="_blank" rel="external">下载链接</a></li>
+</ul>
+<p>下载可能有点慢，耐心等待即可。</p>
+<ul>
+<li><p>将下载的文件解压出来。</p>
+</li>
+<li><p>打开解压出来的文件夹，双击运行里面的“electronic-wechat”就可以直接使用微信了。</p>
+</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-4ae32e504d8d8721.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="wechat启动程序.png"></p>
+<ul>
+<li>右键左侧图标栏里的微信，点击<code>锁定到启动器</code>。</li>
+</ul>
+<h3 id="安装网易云音乐"><a href="#安装网易云音乐" class="headerlink" title="安装网易云音乐"></a>安装网易云音乐</h3><ul>
+<li>在官网下载“<a href="http://music.163.com/#/download" target="_blank" rel="external">网易云音乐 for linux</a>”</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-0107c83fa3c90269.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="网易云音乐下载.png"></p>
+<ul>
+<li>依次运行以下四条命令即可完成安装。</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">cd 下载</div><div class="line">sudo dpkg -i program_name.deb </div><div class="line">sudo apt-get install -f</div><div class="line">sudo dpkg -i program_name.deb</div></pre></td></tr></table></figure>
+<p>“program_name.deb”指的是刚下载的安装包的名字，可在文件属性里面复制过来。以上四条命令有重复的，但不可省略。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-116b1c5b4e0da03a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="网易云音乐.png"></p>
+<h3 id="安装VCL视频播放器"><a href="#安装VCL视频播放器" class="headerlink" title="安装VCL视频播放器"></a>安装VCL视频播放器</h3><p>ubuntu自带的播放器很多视频格式不支持。<br>依次运行以下四条命令即可完成安装。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo add-apt-repository ppa:videolan/master-daily</div><div class="line">sudo apt-get update</div><div class="line">sudo apt-get install vlc</div></pre></td></tr></table></figure>
+<p>打开系统设置——详细信息——默认应用程序——视频，改成VCL即可。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-b6561cedbd37758c.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="vcl"></p>
+<h3 id="安装QQ"><a href="#安装QQ" class="headerlink" title="安装QQ"></a>安装QQ</h3><p><em>安装QQ的方法有很多，这里介绍安装winneQQ的方法。</em></p>
+<ul>
+<li>依次运行以下三条命令，用来安装winne</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo add-apt-repository ppa:wine/wine-builds  </div><div class="line">sudo apt-get update</div><div class="line">sudo apt-get install winehq-devel</div></pre></td></tr></table></figure>
+<ul>
+<li>下载wineQQ<ul>
+<li>下载地址：<a href="https://pan.baidu.com/s/1eSozgUQ" target="_blank" rel="external">https://pan.baidu.com/s/1eSozgUQ</a></li>
+<li>安装wineQQ<br><em>依次运行以下两条命令</em></li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd 下载</div><div class="line">tar xvf wineQQ8.9_19990.tar.xz -C ~/</div></pre></td></tr></table></figure>
+<p>到这里wineQQ就按装好了，在搜索中输入qq即可找到。另外首次运行QQ会提示安装一些组件，直接点安装即可。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-ea2178cd90ebecb5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="wineQQ.png"></p>
+<hr>
+<h3 id="安装WPS"><a href="#安装WPS" class="headerlink" title="安装WPS"></a>安装WPS</h3><ul>
+<li>在官网下载“<a href="http://linux.wps.cn/" target="_blank" rel="external">wps for linux</a>”,下载deb格式的。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-1961d93e31c5cb84.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="wps安装包下载.png"></p>
+<ul>
+<li>安装wps，运行以下命令即可，之后搜索wps可找到程序。</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo dpkg -i program_name.deb</div></pre></td></tr></table></figure>
+<p><em>“program_name”是wps安装包的名字。</em></p>
+<p>如果出错，执行sudo apt-get install -f ，再执行安装即可。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-9ca1dfc677fd52ba.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="wps.png"></p>
+<ul>
+<li>wps字体缺失问题<br>打开wps会出现如下报错。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-bce07c9f26bb61db.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="系统缺失字体.png"></p>
+<ul>
+<li>下载缺失字体包</li>
+</ul>
+<p>下载地址：<a href="https://pan.baidu.com/s/1pKHCMp1" target="_blank" rel="external">https://pan.baidu.com/s/1pKHCMp1</a></p>
+<ul>
+<li>我是将其下载到了系统的“下载”这个目录里，直接在“下载”目录里右键打开终端，运行以下两条命令即可（避免出错，直接复制）。</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo unzip wps_symbol_fonts.zip</div><div class="line">sudo cp mtextra.ttf  symbol.ttf  WEBDINGS.TTF  wingding.ttf  WINGDNG2.ttf  WINGDNG3.ttf  /usr/share/fonts</div></pre></td></tr></table></figure>
+<p>之后下载文件夹解压出的文件可删除。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-818fac5dc21d1e3f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="解决系统字体缺失的方法.png"></p>
+<hr>
+<h3 id="安装IntelliJ-IDEA"><a href="#安装IntelliJ-IDEA" class="headerlink" title="安装IntelliJ IDEA"></a>安装IntelliJ IDEA</h3><ul>
+<li>官网下载”<a href="https://www.jetbrains.com/idea/download/#section=linux" target="_blank" rel="external">IntelliJ IDEA for linux</a>“</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-6f691019b1c78ea6.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IEDA下载.png"></p>
+<ul>
+<li>将下载的文件双击打开，把里面的文件夹拖放到“下载”目录里，然后打开idea的bin目录，在该目录的空白处右键点打开终端。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-4d0129dff261ef73.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="idea目录.png"></p>
+<ul>
+<li>在终端中输入执行以下命令即可打开idea。</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">./idea.sh</div></pre></td></tr></table></figure>
+<ul>
+<li>在软件激活界面输入<code>http://idea.liyang.io</code>即可完成激活(图片中的已过期)，之后即可正常使用。</li>
+</ul>
+<p>别忘了打开软件的时候，在左侧图标栏里右键点击将其锁定到启动器，方便下次使用。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-8c19b2b00820300d.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="idea激活.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-b29aaf8e180f09f9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="idea.png"></p>
+<p>JetBrains公司的其他软件安装同上。</p>
+<h3 id="安装jdk"><a href="#安装jdk" class="headerlink" title="安装jdk"></a>安装jdk</h3><p>jdk有两种，一种openjdk（ubuntu自带），一种oraclejdk<br>安装openjdk即可。</p>
+<ul>
+<li>执行以下命令即可完成安装</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">sudo apt install openjdk-8-jdk</div></pre></td></tr></table></figure>
+<ul>
+<li>输入<code>java -version</code>可查看版本</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-6efa2f2b5a947c12.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="openjdk"></p>
+<ul>
+<li>如果想安装Oraclejdk，可参考：<br><a href="http://topspeedsnail.com/ubuntu16-install-java-jdk/" target="_blank" rel="external">http://topspeedsnail.com/ubuntu16-install-java-jdk/</a></li>
+</ul>
+<h3 id="安装MySQL"><a href="#安装MySQL" class="headerlink" title="安装MySQL"></a>安装MySQL</h3><ul>
+<li><p>终端执行<code>sudo apt-get install mysql-server</code>后会提示设置root账户的密码，设置好后就安装成功了。</p>
+</li>
+<li><p>执行<code>mysql -uroot -p密码</code>即可登录数据库，ctr+z可退出。</p>
+</li>
+</ul>
+<p>如：<br><img src="http://upload-images.jianshu.io/upload_images/5349051-fc93baf8e33af2c3.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="MySQL"></p>
+<h3 id="安装并更新Git到最新版"><a href="#安装并更新Git到最新版" class="headerlink" title="安装并更新Git到最新版"></a>安装并更新Git到最新版</h3><ul>
+<li>依次运行以下四条命令</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install git</div><div class="line">sudo add-apt-repository ppa:git-core/ppa</div><div class="line">sudo apt update</div><div class="line">sudo apt install git</div></pre></td></tr></table></figure>
+<ul>
+<li>输入<code>git --version</code>查看版本</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-d2d8c0c9e8d9f927.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="Git"></p>
+<h3 id="安装最新版node-js和npm"><a href="#安装最新版node-js和npm" class="headerlink" title="安装最新版node.js和npm"></a>安装最新版node.js和npm</h3><ul>
+<li>ubuntu自带有node，但版本过旧，在<a href="https://nodejs.org/zh-cn/" target="_blank" rel="external">官网</a>下载node.js安装包。<br>有两个版本，任选一个即可，第一个是稳定版，第二个是最新版。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-56f1103f643d0313.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="node.js"></p>
+<ul>
+<li>将下载的文件解压出来，进入到<code>bin</code>目录，在此目录里右键打开终端，执行以下两条命令即可完成安装。（最好直接复制）</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">sudo ln -s node /usr/local/bin/node</div><div class="line">suso ln -s npm /usr/local/bin/npm</div></pre></td></tr></table></figure>
+<ul>
+<li>执行<code>node -v</code>和<code>npm -v</code>可查看版本。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-24c3c6d209a55a14.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="node,npm"></p>
+<hr>
+<h2 id="科学上网"><a href="#科学上网" class="headerlink" title="科学上网"></a>科学上网</h2><hr>
+<h3 id="安装shandowsocks"><a href="#安装shandowsocks" class="headerlink" title="安装shandowsocks"></a>安装shandowsocks</h3><p>依次运行以下三条命令即可完成安装，之后可在搜索中找到软件。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo add-apt-repository ppa:hzwhuang/ss-qt5</div><div class="line">sudo apt-get update</div><div class="line">sudo apt-get install shadowsocks-qt5</div></pre></td></tr></table></figure>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-30fed01b1baf64f0.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="shadowsocks.png"></p>
+<h3 id="配置节点信息"><a href="#配置节点信息" class="headerlink" title="配置节点信息"></a>配置节点信息</h3><ul>
+<li>打开软件，点连接——添加——手动，填写代理节点信息。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-2a08297a7be77610.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="节点信息.png"></p>
+<ul>
+<li>然后点“连接”。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-0f13fd0de0543bc5.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="连接节点.png"></p>
+<h3 id="安装配置浏览器插件"><a href="#安装配置浏览器插件" class="headerlink" title="安装配置浏览器插件"></a>安装配置浏览器插件</h3><ul>
+<li><p>下载浏览器插件：<br>下载地址：<a href="https://pan.baidu.com/s/1eSF35gm" target="_blank" rel="external">https://pan.baidu.com/s/1eSF35gm</a></p>
+</li>
+<li><p>打开chrome浏览器，在浏览器地址栏输入“chrome://extensions/”，将刚下载的插件拖放进去，按提示操作即可完成安装。</p>
+</li>
+<li>下载浏览器插件配置脚本<br>下载地址：<a href="https://pan.baidu.com/s/1kVcdJfh" target="_blank" rel="external">https://pan.baidu.com/s/1kVcdJfh</a></li>
+<li>按如图所示点击“从备份文件恢复”将配置脚本导入插件</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-f2b55d1481accde8.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="导入插件配置文件.png"></p>
+<ul>
+<li>将端口改为“1080”，然后点“应用选项”</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-9d738e58650dc13a.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="该端口.png"></p>
+<ul>
+<li><p>点击插件选择“自动切换”，之后即可科学上网。</p>
+</li>
+<li><p>同理火狐浏览器也可以这样设置。</p>
+</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-b31530ec2a48c544.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="成功科学上网.png"></p>
+<h3 id="设置开机自启"><a href="#设置开机自启" class="headerlink" title="设置开机自启"></a>设置开机自启</h3><p>在ubuntu software里搜索并安装“startup”</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-d032eb8576a8ed0e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="image.png"></p>
+<p>打开startup，将shadowsocks添加到开机启动项即可。</p>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-4270706f50f6469e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="QQ截图20170924164049.png"></p>
+<hr>
+<h2 id="调整win10和ubuntu双系统启动顺序（可选设置）"><a href="#调整win10和ubuntu双系统启动顺序（可选设置）" class="headerlink" title="调整win10和ubuntu双系统启动顺序（可选设置）"></a>调整win10和ubuntu双系统启动顺序（可选设置）</h2><hr>
+<ul>
+<li>前言：装了win10和ubuntu双系统后每次开机默认进Ubuntu，如果不操作会等待10秒，对于初学者来说，win10会用的比较多一点。况且不点回车要等待10秒这个时间也是过长的。</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-3451043801496dd2.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="开机启动项.png"></p>
+<ul>
+<li>调整等待时间和系统启动顺序<br>在终端中执行以下命令，即可自动打开grub目录并为“grub.cfg”文件获取root权限。<ul>
+<li>sudo nautilus /boot/grub/grub.cfg</li>
+</ul>
+</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-00aba73ffcb8e69e.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="grub.png"></p>
+<ul>
+<li>双击打开grub.cfg文件<ul>
+<li>set timeout的值就是等待时间，可改为3或者1，本文件有很多“set timeout 注意只改图片中的这一个”。</li>
+<li>set default的值为为默认启动系统的顺序，从0开始计算，ubuntu系统在第一位，值就是0，windows是在第三位，将值改为2即可。</li>
+</ul>
+</li>
+</ul>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-5f4cd6ceec776e30.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="开机等待时间.png"></p>
+<p><img src="http://upload-images.jianshu.io/upload_images/5349051-4b8d8d20bb142d7f.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="系统启动顺序.png"></p>
+<ul>
+<li>改完值后，保存并运行以下命令更新grub文件<ul>
+<li>sudo update-grub</li>
+</ul>
+</li>
+</ul>
+<hr>
+<h2 id="同步双系统时间"><a href="#同步双系统时间" class="headerlink" title="同步双系统时间"></a>同步双系统时间</h2><ul>
+<li>如果进ubuntu之后再进windows发现winndwos时间不准了，则在ubuntu里依次运行以下3条命令即可解决。</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div></pre></td><td class="code"><pre><div class="line">sudo apt-get install ntpdate</div><div class="line">sudo ntpdate time.windows.com</div><div class="line">sudo hwclock --localtime --systohc</div></pre></td></tr></table></figure>
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+      <div>
+        <ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者：</strong>
+    StormXing
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="http://www.stormxing.com/posts/安装ubuntu后的一些基础设置/" title="安装ubuntu后的一些基础设置">http://www.stormxing.com/posts/安装ubuntu后的一些基础设置/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>
+    本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/" rel="external nofollow" target="_blank">CC BY-NC-SA 3.0</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+
+      </div>
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/ubuntu/" rel="tag"># ubuntu</a>
+          
+            <a href="/tags/科学上网/" rel="tag"># 科学上网</a>
+          
+        </div>
+      
+
+      
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/posts/Hexo+GitHub Pages搭建个人博客/" rel="next" title="Hexo+GitHub Pages搭建个人博客">
+                <i class="fa fa-chevron-left"></i> Hexo+GitHub Pages搭建个人博客
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/posts/快捷键/" rel="prev" title="快捷键">
+                快捷键 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+
+    <div class="post-spread">
+      
+        
+  <div class="bdsharebuttonbox">
+    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+    <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
+    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
+    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
+    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
+    <a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
+    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
+    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
+    <a href="#" class="bds_more" data-cmd="more"></a>
+    <a class="bds_count" data-cmd="count"></a>
+  </div>
+  <script>
+    window._bd_share_config = {
+      "common": {
+        "bdText": "",
+        "bdMini": "2",
+        "bdMiniList": false,
+        "bdPic": ""
+      },
+      "share": {
+        "bdSize": "16",
+        "bdStyle": "0"
+      },
+      "image": {
+        "viewList": ["tsina", "douban", "sqq", "qzone", "weixin", "twi", "fbook"],
+        "viewText": "分享到：",
+        "viewSize": "16"
+      }
+    }
+  </script>
+
+<script>
+  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
+</script>
+
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+
+  
+    <div class="comments" id="comments">
+      <div id="lv-container" data-id="city" data-uid="MTAyMC8zMDgzNi83Mzg1"></div>
+    </div>
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <img class="site-author-image" itemprop="image"
+                src="/images/头像.jpg"
+                alt="StormXing" />
+            
+              <p class="site-author-name" itemprop="name">StormXing</p>
+              <p class="site-description motion-element" itemprop="description">Study and practice.years of it.</p>
+          </div>
+
+          <nav class="site-state motion-element">
+
+            
+              <div class="site-state-item site-state-posts">
+              
+                <a href="/archives/">
+              
+                  <span class="site-state-item-count">8</span>
+                  <span class="site-state-item-name">日志</span>
+                </a>
+              </div>
+            
+
+            
+
+            
+              
+              
+              <div class="site-state-item site-state-tags">
+                <a href="/tags/index.html">
+                  <span class="site-state-item-count">12</span>
+                  <span class="site-state-item-name">标签</span>
+                </a>
+              </div>
+            
+
+          </nav>
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          <div class="links-of-author motion-element">
+            
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/stormxing" target="_blank" title="GitHub">
+                    
+                      <i class="fa fa-fw fa-github"></i>GitHub</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:stormxing@foxmail.com" target="_blank" title="E-Mail">
+                    
+                      <i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="http://www.jianshu.com/u/099c542c5701" target="_blank" title="简书">
+                    
+                      <i class="fa fa-fw fa-globe"></i>简书</a>
+                </span>
+              
+            
+          </div>
+
+          
+          
+
+          
+          
+            <div class="links-of-blogroll motion-element links-of-blogroll-block">
+              <div class="links-of-blogroll-title">
+                <i class="fa  fa-fw fa-link"></i>
+                Links
+              </div>
+              <ul class="links-of-blogroll-list">
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="http://www.hao6v.com/" title="6v" target="_blank">6v</a>
+                  </li>
+                
+                  <li class="links-of-blogroll-item">
+                    <a href="https://school.thoughtworks.cn/user-center/home/index.html#/app-center" title="TW" target="_blank">TW</a>
+                  </li>
+                
+              </ul>
+            </div>
+          
+
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#安装常用软件"><span class="nav-number">1.</span> <span class="nav-text">安装常用软件</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#说明"><span class="nav-number">1.1.</span> <span class="nav-text">说明</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装chrome浏览器"><span class="nav-number">1.2.</span> <span class="nav-text">安装chrome浏览器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装搜狗输入法"><span class="nav-number">1.3.</span> <span class="nav-text">安装搜狗输入法</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装微信"><span class="nav-number">1.4.</span> <span class="nav-text">安装微信</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装网易云音乐"><span class="nav-number">1.5.</span> <span class="nav-text">安装网易云音乐</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装VCL视频播放器"><span class="nav-number">1.6.</span> <span class="nav-text">安装VCL视频播放器</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装QQ"><span class="nav-number">1.7.</span> <span class="nav-text">安装QQ</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装WPS"><span class="nav-number">1.8.</span> <span class="nav-text">安装WPS</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装IntelliJ-IDEA"><span class="nav-number">1.9.</span> <span class="nav-text">安装IntelliJ IDEA</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装jdk"><span class="nav-number">1.10.</span> <span class="nav-text">安装jdk</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装MySQL"><span class="nav-number">1.11.</span> <span class="nav-text">安装MySQL</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装并更新Git到最新版"><span class="nav-number">1.12.</span> <span class="nav-text">安装并更新Git到最新版</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装最新版node-js和npm"><span class="nav-number">1.13.</span> <span class="nav-text">安装最新版node.js和npm</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#科学上网"><span class="nav-number">2.</span> <span class="nav-text">科学上网</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装shandowsocks"><span class="nav-number">2.1.</span> <span class="nav-text">安装shandowsocks</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#配置节点信息"><span class="nav-number">2.2.</span> <span class="nav-text">配置节点信息</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#安装配置浏览器插件"><span class="nav-number">2.3.</span> <span class="nav-text">安装配置浏览器插件</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#设置开机自启"><span class="nav-number">2.4.</span> <span class="nav-text">设置开机自启</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#调整win10和ubuntu双系统启动顺序（可选设置）"><span class="nav-number">3.</span> <span class="nav-text">调整win10和ubuntu双系统启动顺序（可选设置）</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#同步双系统时间"><span class="nav-number">4.</span> <span class="nav-text">同步双系统时间</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">StormXing</span>
+
+  
+</div>
+<!--
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动</div>
+
+
+  <span class="post-meta-divider">|</span>
+-->
+
+<!--
+
+  <div class="theme-info">主题 &mdash; <a class="theme-link" target="_blank" href="https://github.com/iissnan/hexo-theme-next">NexT.Mist</a> v5.1.3
+</div>
+-->
+
+
+
+
+        
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.3"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.3"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.3"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.3"></script>
+
+
+
+  
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+    <script type="text/javascript">
+      (function(d, s) {
+        var j, e = d.getElementsByTagName(s)[0];
+        if (typeof LivereTower === 'function') { return; }
+        j = d.createElement(s);
+        j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+        j.async = true;
+        e.parentNode.insertBefore(j, e);
+      })(document, 'script');
+    </script>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+<script>
+(function(){
+    var bp = document.createElement('script');
+    var curProtocol = window.location.protocol.split(':')[0];
+    if (curProtocol === 'https') {
+        bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+    }
+    else {
+        bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+    }
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(bp, s);
+})();
+</script>
+
+
+  
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
