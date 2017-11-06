@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.stormxing.com/"/>
-  <updated>2017-11-06T13:33:02.280Z</updated>
+  <updated>2017-11-06T13:42:05.866Z</updated>
   <id>http://www.stormxing.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://www.stormxing.com/posts/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     <id>http://www.stormxing.com/posts/快捷键/</id>
     <published>2017-11-06T03:17:41.000Z</published>
-    <updated>2017-11-06T13:33:02.280Z</updated>
+    <updated>2017-11-06T13:42:05.866Z</updated>
     
-    <content type="html"><![CDATA[<p>webstorm和idea常用快捷键集合，慢慢添加<br><a id="more"></a></p><table><thead><tr><th>快捷键</th><th>介绍</th></tr></thead><tbody><tr><td><code>Ctr+Alt+L</code></td><td>格式化代码</td></tr><tr><td><code>Alt+J</code></td><td>同时选中多个相同内容</td></tr><tr><td><code>Ctr+W</code></td><td>递进式选择代码块</td></tr><tr><td><code>Ctr+/</code></td><td>单行注释</td></tr><tr><td><code>Ctr+Shift+/</code></td><td>多行注释</td></tr><tr><td><code>Alt+Enter</code></td><td>自动修复</td></tr><tr><td><code>Ctrl + Shift + Enter</code></td><td>自动添加括号和分号</td></tr><tr><td><code>Ctr+Y</code></td><td>删除光标所在行</td></tr><tr><td><code>Ctr+D</code></td><td>复制光标所在行并将其插入光标位置下面</td></tr><tr><td><code>Ctrl+ +/-</code></td><td>展开、折叠</td></tr></tbody></table>]]></content>
+    <content type="html"><![CDATA[<p>webstorm和idea常用快捷键集合，慢慢添加<br><a id="more"></a></p><table><thead><tr><th>快捷键</th><th>介绍</th></tr></thead><tbody><tr><td><code>Ctr+Alt+L</code></td><td>格式化代码</td></tr><tr><td><code>Alt+J</code></td><td>同时选中多个相同内容</td></tr><tr><td><code>Ctr+W</code></td><td>递进式选择代码块</td></tr><tr><td><code>Ctr+/</code></td><td>单行注释</td></tr><tr><td><code>Ctr+Shift+/</code></td><td>多行注释</td></tr><tr><td><code>Alt+Enter</code></td><td>自动修复</td></tr><tr><td><code>Ctrl + Shift + Enter</code></td><td>自动添加括号和分号</td></tr><tr><td><code>Ctr+Y</code></td><td>删除光标所在行</td></tr><tr><td><code>Ctr+D</code></td><td>复制光标所在行并将其插入光标位置下面</td></tr><tr><td><code>Ctrl+ +/-</code></td><td>展开、折叠</td></tr><tr><td><code>Alt+方向键</code></td><td>切换标签页</td></tr><tr><td><code>Alt+F4</code></td><td>关闭标签页</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
