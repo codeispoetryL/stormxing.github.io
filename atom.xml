@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.stormxing.com/"/>
-  <updated>2017-11-06T13:30:50.470Z</updated>
+  <updated>2017-11-06T13:33:02.280Z</updated>
   <id>http://www.stormxing.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://www.stormxing.com/posts/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     <id>http://www.stormxing.com/posts/快捷键/</id>
     <published>2017-11-06T03:17:41.000Z</published>
-    <updated>2017-11-06T13:30:50.470Z</updated>
+    <updated>2017-11-06T13:33:02.280Z</updated>
     
-    <content type="html"><![CDATA[<p>webstorm和idea常用快捷键集合，慢慢添加<br><a id="more"></a></p><table><thead><tr><th>快捷键</th><th>介绍</th></tr></thead><tbody><tr><td><code>Ctr+Alt+L</code></td><td>格式化代码</td></tr><tr><td><code>Alt+J</code></td><td>同时选中多个相同内容</td></tr><tr><td><code>Ctr+W</code></td><td>递进式选择代码块</td></tr><tr><td><code>Ctr+/</code></td><td>单行注释</td></tr><tr><td><code>Ctr+Shift+/</code></td><td>多行注释</td></tr><tr><td><code>Alt+Enter</code></td><td>自动修复</td></tr><tr><td><code>Ctrl + Shift + Enter</code></td><td>自动添加括号和分号</td></tr><tr><td><code>Ctr+Y</code></td><td>删除光标所在行</td></tr><tr><td><code>Ctr+D</code></td><td>复制光标所在行并将其插入光标位置下面</td></tr><tr><td><code>Ctrl+ +/-</code></td><td>展开、折叠</td></tr><tr><td>``</td></tr></tbody></table><p>原文链接：<a href="https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-introduce.md" target="_blank" rel="external">https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-introduce.md</a></p><p><img src="http://upload-images.jianshu.io/upload_images/5349051-7b8630062bb0d058.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IntelliJ IDEA 常用快捷键（Win + Linux）"></p>]]></content>
+    <content type="html"><![CDATA[<p>webstorm和idea常用快捷键集合，慢慢添加<br><a id="more"></a></p><table><thead><tr><th>快捷键</th><th>介绍</th></tr></thead><tbody><tr><td><code>Ctr+Alt+L</code></td><td>格式化代码</td></tr><tr><td><code>Alt+J</code></td><td>同时选中多个相同内容</td></tr><tr><td><code>Ctr+W</code></td><td>递进式选择代码块</td></tr><tr><td><code>Ctr+/</code></td><td>单行注释</td></tr><tr><td><code>Ctr+Shift+/</code></td><td>多行注释</td></tr><tr><td><code>Alt+Enter</code></td><td>自动修复</td></tr><tr><td><code>Ctrl + Shift + Enter</code></td><td>自动添加括号和分号</td></tr><tr><td><code>Ctr+Y</code></td><td>删除光标所在行</td></tr><tr><td><code>Ctr+D</code></td><td>复制光标所在行并将其插入光标位置下面</td></tr><tr><td><code>Ctrl+ +/-</code></td><td>展开、折叠</td></tr></tbody></table>]]></content>
     
     <summary type="html">
     
