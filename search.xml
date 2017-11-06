@@ -19,7 +19,7 @@
   <entry>
     <title><![CDATA[快捷键]]></title>
     <url>%2Fposts%2F%E5%BF%AB%E6%8D%B7%E9%94%AE%2F</url>
-    <content type="text"><![CDATA[已掌握的： 快捷键 介绍 Ctr+Alt+L 格式化代码 Alt+J 同时选中多个相同内容 Ctr+W 递进式选择代码块 Ctr+/ 单行注释 Ctr+Shift+/ 多行注释 Alt+Enter 自动修复 Ctrl + Shift + Enter 自动添加括号和分号 Ctr+Y 删除光标所在行 Ctr+D 复制光标所在行并将其插入光标位置下面 Ctrl+ +/- 展开、折叠 `` `` `` `` `` `` `` `` `` `` `` `` 原文链接：https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-introduce.md]]></content>
+    <content type="text"><![CDATA[已掌握的： 快捷键 介绍 Ctr+Alt+L 格式化代码 Alt+J 同时选中多个相同内容 Ctr+W 递进式选择代码块 Ctr+/ 单行注释 Ctr+Shift+/ 多行注释 Alt+Enter 自动修复 Ctrl + Shift + Enter 自动添加括号和分号 Ctr+Y 删除光标所在行 Ctr+D 复制光标所在行并将其插入光标位置下面 Ctrl+ +/- 展开、折叠 `` 原文链接：https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-introduce.md]]></content>
       <tags>
         <tag>快捷键</tag>
       </tags>
