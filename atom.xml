@@ -69,9 +69,9 @@
     <link href="http://www.stormxing.com/posts/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
     <id>http://www.stormxing.com/posts/快捷键/</id>
     <published>2017-10-30T03:17:41.000Z</published>
-    <updated>2017-11-06T10:32:10.618Z</updated>
+    <updated>2017-11-06T13:21:42.881Z</updated>
     
-    <content type="html"><![CDATA[<p>已掌握的：</p><table><thead><tr><th>快捷键</th><th>介绍</th></tr></thead><tbody><tr><td><code>Ctr+Y</code></td><td>删除光标所在行</td></tr><tr><td><code>Ctr+D</code></td><td>复制光标所在行并将其插入光标位置下面</td></tr><tr><td><code>Ctr+W</code></td><td>递进式选择代码块</td></tr></tbody></table><a id="more"></a><p>原文链接：<a href="https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-introduce.md" target="_blank" rel="external">https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-introduce.md</a></p><p><img src="http://upload-images.jianshu.io/upload_images/5349051-7b8630062bb0d058.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IntelliJ IDEA 常用快捷键（Win + Linux）"></p>]]></content>
+    <content type="html"><![CDATA[<p>已掌握的：</p><table><thead><tr><th>快捷键</th><th>介绍</th></tr></thead><tbody><tr><td><code>Ctr+Alt+L</code></td><td>格式化代码</td></tr><tr><td><code>Alt+J</code></td><td>同时选中多个相同内容</td></tr><tr><td><code>Ctr+W</code></td><td>递进式选择代码块</td></tr><tr><td><code>Ctr+/</code></td><td>单行注释</td></tr><tr><td><code>Ctr+Shift+/</code></td><td>多行注释</td></tr><tr><td><code>Alt+Enter</code></td><td>自动修复</td></tr><tr><td><code>Ctrl + Shift + Enter</code></td><td>自动添加括号和分号</td></tr><tr><td><code>Ctr+Y</code></td><td>删除光标所在行</td></tr><tr><td><code>Ctr+D</code></td><td>复制光标所在行并将其插入光标位置下面</td></tr><tr><td><code>Ctrl+ +/-</code></td><td>展开、折叠</td></tr><tr><td>``</td><td></td></tr><tr><td>``</td><td></td></tr><tr><td>``</td><td></td></tr><tr><td>``</td><td></td></tr><tr><td>``</td><td></td></tr><tr><td>``</td><td></td></tr><tr><td>``</td><td></td></tr><tr><td>``</td><td></td></tr><tr><td>``</td><td></td></tr><tr><td>``</td><td></td></tr><tr><td>``</td><td></td></tr><tr><td>``</td></tr></tbody></table><a id="more"></a><p>原文链接：<a href="https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-introduce.md" target="_blank" rel="external">https://github.com/judasn/IntelliJ-IDEA-Tutorial/blob/master/keymap-introduce.md</a></p><p><img src="http://upload-images.jianshu.io/upload_images/5349051-7b8630062bb0d058.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="IntelliJ IDEA 常用快捷键（Win + Linux）"></p>]]></content>
     
     <summary type="html">
     
@@ -85,6 +85,34 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Ctr+Alt+L&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;格式化代码&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Alt+J&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;同时选中多个相同内容&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Ctr+W&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;递进式选择代码块&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Ctr+/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;单行注释&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Ctr+Shift+/&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;多行注释&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Alt+Enter&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;自动修复&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;&lt;code&gt;Ctrl + Shift + Enter&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;自动添加括号和分号&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
 &lt;td&gt;&lt;code&gt;Ctr+Y&lt;/code&gt;&lt;/td&gt;
 &lt;td&gt;删除光标所在行&lt;/td&gt;
 &lt;/tr&gt;
@@ -93,8 +121,55 @@
 &lt;td&gt;复制光标所在行并将其插入光标位置下面&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td&gt;&lt;code&gt;Ctr+W&lt;/code&gt;&lt;/td&gt;
-&lt;td&gt;递进式选择代码块&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;Ctrl+ +/-&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;展开、折叠&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;``&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;``&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;``&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;``&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;``&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;``&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;``&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;``&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;``&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;``&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;``&lt;/td&gt;
+&lt;td&gt;&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;``&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
