@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[JavaEE——SSM]]></title>
+    <title><![CDATA[JavaEE]]></title>
     <url>%2Fposts%2FJavaEE%2F</url>
     <content type="text"><![CDATA[MySQL常用语句 数据库 12345678910111213mysql -u用户名 -p密码; #连接本地数据库mysql -hip -u用户名 -p密码; #连接远程数据库SHOW DATABASES; #查询数据库CREATE DATABASE name; #创建数据库DROP DATABASE name; #删除数据库USE name; #切换数据库CREATE DATABASE name DEFAULT CHARACTER SET utf8; #创建制定编码格式的数据库SHOW CREATE DATABASE name; #查看数据库默认编码格式ALTER DATABASE name DEFAULT CHARACTER SET utf8; #修改数据库的字符集exti; #退出数据库 数据表 123456789101112131415SHOW TABLES; #查看数据表DESC name; #查看指定表结构CREATE TABLE name( 字段名称 字段类型， 字段名称 字段类型); #创建表DROP TABLE name; #删除表ALTER TABLE name RENAME new_name; #修改表名ALTER TABLE name ADD COLUMN 字段名称 #字段类型; #添加表字段ALTER TABLE name DROP COLUMN 字段名称; #删除表字段ALTER TABLE name MODIFY 字段名称 要修改的类型; #修改字段类型ALTER TABLE name CHANGE old_name new_name old类型； #修改表字段名 导入导出 12]]></content>
       <tags>
-        <tag>SSM</tag>
         <tag>javaEE</tag>
       </tags>
   </entry>
