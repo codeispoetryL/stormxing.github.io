@@ -130,18 +130,18 @@
 
 
 
-<meta name="description" content="MySQL常用语句 数据库  12345678910111213mysql -u用户名 -p密码;                   #连接本地数据库mysql -hip -u用户名 -p密码;              #连接远程数据库SHOW DATABASES;                         #查询数据库CREATE DATABASE name;">
+<meta name="description" content="MySQL命令行中的常用语句 数据库">
 <meta name="keywords" content="javaEE">
 <meta property="og:type" content="article">
 <meta property="og:title" content="JavaEE">
 <meta property="og:url" content="http://www.stormxing.com/posts/JavaEE/index.html">
 <meta property="og:site_name" content="StormXing">
-<meta property="og:description" content="MySQL常用语句 数据库  12345678910111213mysql -u用户名 -p密码;                   #连接本地数据库mysql -hip -u用户名 -p密码;              #连接远程数据库SHOW DATABASES;                         #查询数据库CREATE DATABASE name;">
+<meta property="og:description" content="MySQL命令行中的常用语句 数据库">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-07T08:42:09.203Z">
+<meta property="og:updated_time" content="2017-11-07T13:43:42.217Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaEE">
-<meta name="twitter:description" content="MySQL常用语句 数据库  12345678910111213mysql -u用户名 -p密码;                   #连接本地数据库mysql -hip -u用户名 -p密码;              #连接远程数据库SHOW DATABASES;                         #查询数据库CREATE DATABASE name;">
+<meta name="twitter:description" content="MySQL命令行中的常用语句 数据库">
 
 
 
@@ -420,18 +420,24 @@
       
 
       
-        <h3 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h3><h4 id="常用语句"><a href="#常用语句" class="headerlink" title="常用语句"></a>常用语句</h4><ul>
+        <h3 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h3><h4 id="命令行中的常用语句"><a href="#命令行中的常用语句" class="headerlink" title="命令行中的常用语句"></a>命令行中的常用语句</h4><ul>
 <li>数据库</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">mysql -u用户名 -p密码;                   #连接本地数据库</div><div class="line">mysql -hip -u用户名 -p密码;              #连接远程数据库</div><div class="line">SHOW DATABASES;                         #查询数据库</div><div class="line">CREATE DATABASE name;                   #创建数据库</div><div class="line">DROP DATABASE name;                     #删除数据库</div><div class="line">USE name;                               #切换数据库</div><div class="line">CREATE DATABASE name</div><div class="line">    DEFAULT CHARACTER SET utf8;</div><div class="line">                                        #创建制定编码格式的数据库</div><div class="line">SHOW CREATE DATABASE name;              #查看数据库默认编码格式</div><div class="line">ALTER DATABASE name DEFAULT CHARACTER SET utf8;</div><div class="line">                                        #修改数据库的字符集</div><div class="line">exti;                                   #退出数据库</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">mysql -u用户名 -p密码;                            #连接本地数据库</div><div class="line"></div><div class="line">mysql -hip -u用户名 -p密码;                       #连接远程数据库</div><div class="line"></div><div class="line">SHOW DATABASES;                                  #查询数据库</div><div class="line"></div><div class="line">CREATE DATABASE name;                            #创建数据库</div><div class="line"></div><div class="line">DROP DATABASE name;                              #删除数据库</div><div class="line"></div><div class="line">USE name;                                        #切换数据库</div><div class="line"></div><div class="line"><span class="keyword">CREATE</span> <span class="keyword">DATABASE</span> <span class="keyword">name</span></div><div class="line">    DEFAULT CHARACTER SET utf8;                  #创建制定编码格式的数据库   </div><div class="line">                                                 </div><div class="line">SHOW CREATE DATABASE name;                       #查看数据库默认编码格式</div><div class="line"></div><div class="line">ALTER DATABASE name DEFAULT CHARACTER SET utf8;  #修改数据库的字符集  </div><div class="line">                                              </div><div class="line">exti;                                            #退出数据库</div></pre></td></tr></table></figure>
 <ul>
 <li>数据表</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">SHOW TABLES;                            #查看数据表</div><div class="line">DESC name;                              #查看指定表结构</div><div class="line">CREATE TABLE name(</div><div class="line">    字段名称 字段类型，</div><div class="line">    字段名称 字段类型</div><div class="line">);                                      #创建表</div><div class="line">DROP TABLE name;                        #删除表</div><div class="line">ALTER TABLE name RENAME new_name;       #修改表名</div><div class="line">ALTER TABLE name ADD COLUMN 字段名称     #字段类型;</div><div class="line">                                        #添加表字段</div><div class="line">ALTER TABLE name DROP COLUMN 字段名称;   #删除表字段</div><div class="line">ALTER TABLE name MODIFY 字段名称 要修改的类型;</div><div class="line">                                        #修改字段类型</div><div class="line">ALTER TABLE name CHANGE old_name new_name old类型； </div><div class="line">                                        #修改表字段名</div></pre></td></tr></table></figure>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">SHOW TABLES;                                     #查看数据表</div><div class="line"></div><div class="line">DESC name;                                       #查看指定表结构</div><div class="line"></div><div class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> <span class="keyword">name</span>(</div><div class="line">    字段名称 字段类型,</div><div class="line">    字段名称 字段类型</div><div class="line">);                                               #创建表</div><div class="line"></div><div class="line">DROP TABLE name;                                 #删除表</div><div class="line"></div><div class="line">ALTER TABLE name RENAME new_name;                #修改表名</div><div class="line"></div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> <span class="keyword">name</span> <span class="keyword">ADD</span> <span class="keyword">COLUMN</span> 字段名称 字段类型      #添加表字段</div><div class="line">                                                 </div><div class="line">ALTER TABLE name DROP COLUMN 字段名称;            #删除表字段</div><div class="line"></div><div class="line">ALTER TABLE name MODIFY 字段名称 要修改的类型;     #修改字段类型</div><div class="line"></div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> <span class="keyword">name</span> <span class="keyword">CHANGE</span> old_name new_name <span class="keyword">old</span>类型;</div><div class="line">                                                 #修改表字段名</div></pre></td></tr></table></figure>
 <ul>
-<li>导入导出</li>
+<li>导入导出SQL文件</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure>
+<p>从本地导入sql文件，先创建数据库，然后退出数据库后执行：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysql -h localhost -u root -p database_name &lt; d:\database_name.sql</div></pre></td></tr></table></figure>
+<p>从本地导出sql文件，退出数据库后执行：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysqldump -h localhost -u root -p test &gt;d:\database_name.sql</div></pre></td></tr></table></figure>
+<p>更多操作可参考:<br><a href="http://www.cnblogs.com/cnkenny/archive/2009/04/22/1441297.html" target="_blank" rel="external">http://www.cnblogs.com/cnkenny/archive/2009/04/22/1441297.html</a></p>
+<h4 id="常用SQL语句"><a href="#常用SQL语句" class="headerlink" title="常用SQL语句"></a>常用SQL语句</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure>
       
     </div>
     
@@ -505,44 +511,6 @@
 
 
     <div class="post-spread">
-      
-        
-  <div class="bdsharebuttonbox">
-    <a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
-    <a href="#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a>
-    <a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a>
-    <a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a>
-    <a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a>
-    <a href="#" class="bds_tieba" data-cmd="tieba" title="分享到百度贴吧"></a>
-    <a href="#" class="bds_twi" data-cmd="twi" title="分享到Twitter"></a>
-    <a href="#" class="bds_fbook" data-cmd="fbook" title="分享到Facebook"></a>
-    <a href="#" class="bds_more" data-cmd="more"></a>
-    <a class="bds_count" data-cmd="count"></a>
-  </div>
-  <script>
-    window._bd_share_config = {
-      "common": {
-        "bdText": "",
-        "bdMini": "2",
-        "bdMiniList": false,
-        "bdPic": ""
-      },
-      "share": {
-        "bdSize": "16",
-        "bdStyle": "0"
-      },
-      "image": {
-        "viewList": ["tsina", "douban", "sqq", "qzone", "weixin", "twi", "fbook"],
-        "viewText": "分享到：",
-        "viewSize": "16"
-      }
-    }
-  </script>
-
-<script>
-  with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='//bdimg.share.baidu.com/static/api/js/share.js?cdnversion='+~(-new Date()/36e5)];
-</script>
-
       
     </div>
   </div>
@@ -704,7 +672,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL"><span class="nav-number">1.</span> <span class="nav-text">MySQL</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#常用语句"><span class="nav-number">1.1.</span> <span class="nav-text">常用语句</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL"><span class="nav-number">1.</span> <span class="nav-text">MySQL</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#命令行中的常用语句"><span class="nav-number">1.1.</span> <span class="nav-text">命令行中的常用语句</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#常用SQL语句"><span class="nav-number">1.2.</span> <span class="nav-text">常用SQL语句</span></a></li></ol></li></ol></div>
             
 
           </div>

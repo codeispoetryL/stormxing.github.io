@@ -422,20 +422,16 @@
 
       
         
-          
-            <h3 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h3><h4 id="常用语句"><a href="#常用语句" class="headerlink" title="常用语句"></a>常用语句</h4><ul>
+          <h3 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h3><h4 id="命令行中的常用语句"><a href="#命令行中的常用语句" class="headerlink" title="命令行中的常用语句"></a>命令行中的常用语句</h4><ul>
 <li>数据库</li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">mysql -u用户名 -p密码;                   #连接本地数据库</div><div class="line">mysql -hip -u用户名 -p密码;              #连接远程数据库</div><div class="line">SHOW DATABASES;                         #查询数据库</div><div class="line">CREATE DATABASE name;                   #创建数据库</div><div class="line">DROP DATABASE name;                     #删除数据库</div><div class="line">USE name;                               #切换数据库</div><div class="line">CREATE DATABASE name</div><div class="line">    DEFAULT CHARACTER SET utf8;</div><div class="line">                                        #创建制定编码格式的数据库</div><div class="line">SHOW CREATE DATABASE name;              #查看数据库默认编码格式</div><div class="line">ALTER DATABASE name DEFAULT CHARACTER SET utf8;</div><div class="line">                                        #修改数据库的字符集</div><div class="line">exti;                                   #退出数据库</div></pre></td></tr></table></figure>
-<ul>
-<li>数据表</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div></pre></td><td class="code"><pre><div class="line">SHOW TABLES;                            #查看数据表</div><div class="line">DESC name;                              #查看指定表结构</div><div class="line">CREATE TABLE name(</div><div class="line">    字段名称 字段类型，</div><div class="line">    字段名称 字段类型</div><div class="line">);                                      #创建表</div><div class="line">DROP TABLE name;                        #删除表</div><div class="line">ALTER TABLE name RENAME new_name;       #修改表名</div><div class="line">ALTER TABLE name ADD COLUMN 字段名称     #字段类型;</div><div class="line">                                        #添加表字段</div><div class="line">ALTER TABLE name DROP COLUMN 字段名称;   #删除表字段</div><div class="line">ALTER TABLE name MODIFY 字段名称 要修改的类型;</div><div class="line">                                        #修改字段类型</div><div class="line">ALTER TABLE name CHANGE old_name new_name old类型； </div><div class="line">                                        #修改表字段名</div></pre></td></tr></table></figure>
-<ul>
-<li>导入导出</li>
-</ul>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line"></div><div class="line"></div></pre></td></tr></table></figure>
-          
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/posts/JavaEE/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
