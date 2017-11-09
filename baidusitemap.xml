@@ -4,11 +4,28 @@
 
     
   <url>
-    <loc>http://www.stormxing.com/posts/JavaEE/</loc>
-    <lastmod>2017-11-08T09:28:47.318Z</lastmod>
+    <loc>http://www.stormxing.com/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2017-11-09T02:30:09.661Z</lastmod>
     <data>
         <display>
-        <title>JavaEE</title>
+        <title>读书笔记</title>
+        <pubTime>2017-11-09T02:18:43.000Z</pubTime>
+        
+        <tag>阅读</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.stormxing.com/posts/JavaEE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2017-11-09T02:18:30.178Z</lastmod>
+    <data>
+        <display>
+        <title>JavaEE学习笔记</title>
         <pubTime>2017-11-07T05:15:25.000Z</pubTime>
         
         <tag>javaEE</tag>

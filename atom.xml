@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.stormxing.com/"/>
-  <updated>2017-11-08T09:28:47.318Z</updated>
+  <updated>2017-11-09T02:30:09.661Z</updated>
   <id>http://www.stormxing.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>JavaEE</title>
-    <link href="http://www.stormxing.com/posts/JavaEE/"/>
-    <id>http://www.stormxing.com/posts/JavaEE/</id>
+    <title>读书笔记</title>
+    <link href="http://www.stormxing.com/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
+    <id>http://www.stormxing.com/posts/读书笔记/</id>
+    <published>2017-11-09T02:18:43.000Z</published>
+    <updated>2017-11-09T02:30:09.661Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="近期书单"><a href="#近期书单" class="headerlink" title="近期书单"></a>近期书单</h3><p>《自控力》<br>《如何阅读一本书》<br>《关键对话》<br>《学会提问》</p><blockquote><p><a href="http://www.jianshu.com/p/0cb14cbe3432" target="_blank" rel="external">思特沃克学院阅读习惯培养推荐书单</a><br><a href="https://pan.baidu.com/s/1gf5iBHh" target="_blank" rel="external">https://pan.baidu.com/s/1gf5iBHh</a></p></blockquote><a id="more"></a><h3 id="自控力"><a href="#自控力" class="headerlink" title="自控力"></a>自控力</h3><h4 id="第一章-什么是意志力"><a href="#第一章-什么是意志力" class="headerlink" title="第一章 什么是意志力"></a>第一章 什么是意志力</h4>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;近期书单&quot;&gt;&lt;a href=&quot;#近期书单&quot; class=&quot;headerlink&quot; title=&quot;近期书单&quot;&gt;&lt;/a&gt;近期书单&lt;/h3&gt;&lt;p&gt;《自控力》&lt;br&gt;《如何阅读一本书》&lt;br&gt;《关键对话》&lt;br&gt;《学会提问》&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.jianshu.com/p/0cb14cbe3432&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;思特沃克学院阅读习惯培养推荐书单&lt;/a&gt;&lt;br&gt;&lt;a href=&quot;https://pan.baidu.com/s/1gf5iBHh&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;https://pan.baidu.com/s/1gf5iBHh&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+    
+    </summary>
+    
+    
+      <category term="阅读" scheme="http://www.stormxing.com/tags/%E9%98%85%E8%AF%BB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>JavaEE学习笔记</title>
+    <link href="http://www.stormxing.com/posts/JavaEE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
+    <id>http://www.stormxing.com/posts/JavaEE学习笔记/</id>
     <published>2017-11-07T05:15:25.000Z</published>
-    <updated>2017-11-08T09:28:47.318Z</updated>
+    <updated>2017-11-09T02:18:30.178Z</updated>
     
     <content type="html"><![CDATA[<h3 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h3><h4 id="常用SQL语句-一"><a href="#常用SQL语句-一" class="headerlink" title="常用SQL语句(一)"></a>常用SQL语句(一)</h4><ul><li>数据库</li></ul><a id="more"></a><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">mysql -u用户名 -p密码;                            #连接本地数据库</div><div class="line"></div><div class="line">mysql -hip -u用户名 -p密码;                       #连接远程数据库</div><div class="line"></div><div class="line">SHOW DATABASES;                                  #查询数据库</div><div class="line"></div><div class="line">CREATE DATABASE name;                            #创建数据库</div><div class="line"></div><div class="line">DROP DATABASE name;                              #删除数据库</div><div class="line"></div><div class="line">USE name;                                        #切换数据库</div><div class="line"></div><div class="line"><span class="keyword">CREATE</span> <span class="keyword">DATABASE</span> <span class="keyword">name</span></div><div class="line">    DEFAULT CHARACTER SET utf8;                  #创建制定编码格式的数据库   </div><div class="line">                                                 </div><div class="line">SHOW CREATE DATABASE name;                       #查看数据库默认编码格式</div><div class="line"></div><div class="line">ALTER DATABASE name DEFAULT CHARACTER SET utf8;  #修改数据库的字符集  </div><div class="line">                                              </div><div class="line">exti;                                            #退出数据库</div></pre></td></tr></table></figure><ul><li>数据表</li></ul><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">SHOW TABLES;                                     #查看数据表</div><div class="line"></div><div class="line">DESC name;                                       #查看指定表结构</div><div class="line"></div><div class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> <span class="keyword">name</span>(</div><div class="line">    字段名称 字段类型,</div><div class="line">    字段名称 字段类型</div><div class="line">);                                               #创建表</div><div class="line"></div><div class="line">DROP TABLE name;                                 #删除表</div><div class="line"></div><div class="line">ALTER TABLE name RENAME new_name;                #修改表名</div><div class="line"></div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> <span class="keyword">name</span> <span class="keyword">ADD</span> <span class="keyword">COLUMN</span> 字段名称 字段类型      #添加表字段</div><div class="line">                                                 </div><div class="line">ALTER TABLE name DROP COLUMN 字段名称;            #删除表字段</div><div class="line"></div><div class="line">ALTER TABLE name MODIFY 字段名称 要修改的类型;     #修改字段类型</div><div class="line"></div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> <span class="keyword">name</span> <span class="keyword">CHANGE</span> old_name new_name <span class="keyword">old</span>类型;</div><div class="line">                                                 #修改表字段名</div></pre></td></tr></table></figure><ul><li>导入导出SQL文件</li></ul><p>从本地导入sql文件，先创建数据库，然后退出数据库后执行：</p><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysql -h localhost -u root -p database_name &lt; d:\database_name.sql</div></pre></td></tr></table></figure><p>从本地导出sql文件，退出数据库后执行：</p><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysqldump -h localhost -u root -p test &gt;d:\database_name.sql</div></pre></td></tr></table></figure><p>更多操作可参考:<br><a href="http://www.cnblogs.com/cnkenny/archive/2009/04/22/1441297.html" target="_blank" rel="external">http://www.cnblogs.com/cnkenny/archive/2009/04/22/1441297.html</a></p><h4 id="常用SQL语句-二"><a href="#常用SQL语句-二" class="headerlink" title="常用SQL语句(二)"></a>常用SQL语句(二)</h4><p>新建一个<code>user</code>表，有两个字段，<code>name</code>和<code>age</code></p><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">INSERT INTO USER VALUES (1,'张三',20);           #插入数据</div><div class="line"></div><div class="line">INSERT INTO USER(id,NAME) VALUES (2,'李四');     #插入指定字段数据</div><div class="line"></div><div class="line">                                                 #修改数据</div><div class="line">UPDATE USER SET NAME='ST',age=10 WHERE id = 2;   #修改id为2的姓名为ST,年龄为10</div><div class="line"></div><div class="line">                                                 #删除数据</div><div class="line">DELETE FROM USER WHERE id=2;                     #删除id为2的数据</div><div class="line"></div><div class="line">SELECT * FROM user;                              #查询表所有列数据</div><div class="line"></div><div class="line">SELECT id,NAME FROM user;                        #查询指定列数据</div></pre></td></tr></table></figure>]]></content>
     
