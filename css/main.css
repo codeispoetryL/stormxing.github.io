@@ -1839,7 +1839,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #396275;
+  background: #d6664f;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2923,7 +2923,7 @@ hr {
   }
 }
 blockquote {
-  border-left: 3px solid #87ceeb;
+  border-left: 2px solid #87ceeb;
 }
 .post {
   margin-top: 30px;
