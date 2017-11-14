@@ -136,7 +136,7 @@
 <meta property="og:site_name" content="StormXing">
 <meta property="og:description" content="MySQL常用SQL语句(一) 数据库">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-09T05:58:26.689Z">
+<meta property="og:updated_time" content="2017-11-14T08:02:01.206Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaEE学习笔记">
 <meta name="twitter:description" content="MySQL常用SQL语句(一) 数据库">
@@ -417,7 +417,7 @@
                   <span class="post-meta-item-text">字数&#58;</span>
                 
                 <span title="字数">
-                  453字
+                  491字
                 </span>
               
 
@@ -459,8 +459,11 @@
 <p>从本地导出sql文件，退出数据库后执行：</p>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysqldump -h localhost -u root -p test &gt;d:\database_name.sql</div></pre></td></tr></table></figure>
 <p>更多操作可参考:<br><a href="http://www.cnblogs.com/cnkenny/archive/2009/04/22/1441297.html" target="_blank" rel="external">http://www.cnblogs.com/cnkenny/archive/2009/04/22/1441297.html</a></p>
-<h4 id="常用SQL语句-二"><a href="#常用SQL语句-二" class="headerlink" title="常用SQL语句(二)"></a>常用SQL语句(二)</h4><p>新建一个<code>user</code>表，有两个字段，<code>name</code>和<code>age</code></p>
+<ul>
+<li>新建一个<code>user</code>表，有两个字段，<code>name</code>和<code>age</code></li>
+</ul>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">INSERT INTO USER VALUES (1,'张三',20);           #插入数据</div><div class="line"></div><div class="line">INSERT INTO USER(id,NAME) VALUES (2,'李四');     #插入指定字段数据</div><div class="line"></div><div class="line">                                                 #修改数据</div><div class="line">UPDATE USER SET NAME='ST',age=10 WHERE id = 2;   #修改id为2的姓名为ST,年龄为10</div><div class="line"></div><div class="line">                                                 #删除数据</div><div class="line">DELETE FROM USER WHERE id=2;                     #删除id为2的数据</div><div class="line"></div><div class="line">SELECT * FROM user;                              #查询表所有列数据</div><div class="line"></div><div class="line">SELECT id,NAME FROM user;                        #查询指定列数据</div></pre></td></tr></table></figure>
+<h3 id="jdbc"><a href="#jdbc" class="headerlink" title="jdbc"></a>jdbc</h3><p>使用java代码（程序）发送sql语句的技术，就是jdbc.<br>jdbc也是sun公司设计的一套通用的java语言操作不同数据库的接口。</p>
 
       
     </div>
@@ -693,7 +696,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL"><span class="nav-number">1.</span> <span class="nav-text">MySQL</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#常用SQL语句-一"><span class="nav-number">1.1.</span> <span class="nav-text">常用SQL语句(一)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#常用SQL语句-二"><span class="nav-number">1.2.</span> <span class="nav-text">常用SQL语句(二)</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL"><span class="nav-number">1.</span> <span class="nav-text">MySQL</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#常用SQL语句-一"><span class="nav-number">1.1.</span> <span class="nav-text">常用SQL语句(一)</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#jdbc"><span class="nav-number">2.</span> <span class="nav-text">jdbc</span></a></li></ol></div>
             
 
           </div>
@@ -727,7 +730,7 @@
     
       <span class="post-meta-item-text">博客全站共&#58;</span>
     
-    <span title="博客全站共">6.6k字</span>
+    <span title="博客全站共">6.7k字</span>
   
 </div>
 <!--
