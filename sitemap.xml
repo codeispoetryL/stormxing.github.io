@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.stormxing.com/posts/xmind/</loc>
+    
+    <lastmod>2017-11-15T02:32:51.441Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.stormxing.com/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     
-    <lastmod>2017-11-14T14:30:42.550Z</lastmod>
+    <lastmod>2017-11-15T01:32:53.291Z</lastmod>
     
   </url>
   
@@ -33,13 +40,6 @@
     <loc>http://www.stormxing.com/posts/%E5%9B%BE%E9%9B%86/</loc>
     
     <lastmod>2017-11-14T01:46:39.908Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.stormxing.com/posts/xmind/</loc>
-    
-    <lastmod>2017-11-12T07:03:26.645Z</lastmod>
     
   </url>
   
