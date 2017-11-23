@@ -123,6 +123,8 @@
 
 
 
+  <link rel="alternate" href="/atom.xml" title="StormXing" type="application/atom+xml" />
+
 
 
 
@@ -136,7 +138,7 @@
 <meta property="og:site_name" content="StormXing">
 <meta property="og:description" content="MySQL常用SQL语句(一) 数据库">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-14T08:02:01.206Z">
+<meta property="og:updated_time" content="2017-11-20T13:50:42.268Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="JavaEE学习笔记">
 <meta name="twitter:description" content="MySQL常用SQL语句(一) 数据库">
@@ -463,7 +465,10 @@
 <li>新建一个<code>user</code>表，有两个字段，<code>name</code>和<code>age</code></li>
 </ul>
 <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">INSERT INTO USER VALUES (1,'张三',20);           #插入数据</div><div class="line"></div><div class="line">INSERT INTO USER(id,NAME) VALUES (2,'李四');     #插入指定字段数据</div><div class="line"></div><div class="line">                                                 #修改数据</div><div class="line">UPDATE USER SET NAME='ST',age=10 WHERE id = 2;   #修改id为2的姓名为ST,年龄为10</div><div class="line"></div><div class="line">                                                 #删除数据</div><div class="line">DELETE FROM USER WHERE id=2;                     #删除id为2的数据</div><div class="line"></div><div class="line">SELECT * FROM user;                              #查询表所有列数据</div><div class="line"></div><div class="line">SELECT id,NAME FROM user;                        #查询指定列数据</div></pre></td></tr></table></figure>
-<h3 id="jdbc"><a href="#jdbc" class="headerlink" title="jdbc"></a>jdbc</h3><p>使用java代码（程序）发送sql语句的技术，就是jdbc.<br>jdbc也是sun公司设计的一套通用的java语言操作不同数据库的接口。</p>
+<h3 id="jdbc"><a href="#jdbc" class="headerlink" title="jdbc"></a>jdbc</h3><ul>
+<li>使用java代码（程序）发送sql语句的技术，就是jdbc.</li>
+<li>jdbc也是sun公司设计的一套通用的java语言操作不同数据库的接口。</li>
+</ul>
 
       
     </div>
@@ -632,6 +637,13 @@
           </nav>
 
           
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
 
           <div class="links-of-author motion-element">
             
@@ -730,7 +742,7 @@
     
       <span class="post-meta-item-text">博客全站共&#58;</span>
     
-    <span title="博客全站共">8.2k字</span>
+    <span title="博客全站共">8.8k字</span>
   
 </div>
 <!--
