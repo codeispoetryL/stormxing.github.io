@@ -4,6 +4,25 @@
 
     
   <url>
+    <loc>http://www.stormxing.com/HexoBlog/</loc>
+    <lastmod>2017-11-27T12:09:41.624Z</lastmod>
+    <data>
+        <display>
+        <title>Hexo+GitHub Pages搭建个人博客</title>
+        <pubTime>2017-10-25T13:56:28.000Z</pubTime>
+        
+        <tag>Hexo</tag>
+         
+        <tag>Github Pages</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.stormxing.com/ReadNote1/</loc>
     <lastmod>2017-11-22T12:31:13.797Z</lastmod>
     <data>
@@ -154,25 +173,6 @@
         <pubTime>2017-10-24T13:54:56.000Z</pubTime>
         
         <tag>Next主题，SEO</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.stormxing.com/HexoBlog/</loc>
-    <lastmod>2017-10-28T01:22:53.000Z</lastmod>
-    <data>
-        <display>
-        <title>Hexo+GitHub Pages搭建个人博客</title>
-        <pubTime>2017-10-25T13:56:28.000Z</pubTime>
-        
-        <tag>Hexo</tag>
-         
-        <tag>Github Pages</tag>
          
          
            
