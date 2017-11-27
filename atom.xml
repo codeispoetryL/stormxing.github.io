@@ -18,8 +18,8 @@
   
   <entry>
     <title>读书笔记</title>
-    <link href="http://www.stormxing.com/posts/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/"/>
-    <id>http://www.stormxing.com/posts/读书笔记/</id>
+    <link href="http://www.stormxing.com/ReadNote1/"/>
+    <id>http://www.stormxing.com/ReadNote1/</id>
     <published>2017-11-09T02:18:43.000Z</published>
     <updated>2017-11-22T12:31:13.797Z</updated>
     
@@ -41,8 +41,8 @@
   
   <entry>
     <title>JavaEE学习笔记</title>
-    <link href="http://www.stormxing.com/posts/JavaEE%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
-    <id>http://www.stormxing.com/posts/JavaEE学习笔记/</id>
+    <link href="http://www.stormxing.com/JavaNotes/"/>
+    <id>http://www.stormxing.com/JavaNotes/</id>
     <published>2017-11-07T05:15:25.000Z</published>
     <updated>2017-11-20T13:50:42.268Z</updated>
     
@@ -62,29 +62,9 @@
   </entry>
   
   <entry>
-    <title>快捷键</title>
-    <link href="http://www.stormxing.com/posts/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    <id>http://www.stormxing.com/posts/快捷键/</id>
-    <published>2017-11-06T03:17:41.000Z</published>
-    <updated>2017-11-07T08:37:10.556Z</updated>
-    
-    <content type="html"><![CDATA[<p>webstorm和idea常用快捷键集合，慢慢添加<br><a id="more"></a></p><table><thead><tr><th>快捷键</th><th>介绍</th></tr></thead><tbody><tr><td><code>Ctr+Alt+L</code></td><td>格式化代码</td></tr><tr><td><code>Alt+J</code></td><td>同时选中多个相同内容</td></tr><tr><td><code>Ctr+W</code></td><td>递进式选择代码块</td></tr><tr><td><code>Ctr+/</code></td><td>单行注释</td></tr><tr><td><code>Ctr+Shift+/</code></td><td>多行注释</td></tr><tr><td><code>Alt+Enter</code></td><td>自动修复</td></tr><tr><td><code>Ctrl + Shift + Enter</code></td><td>自动添加括号和分号</td></tr><tr><td><code>Alt+F12</code></td><td>切换到终端</td></tr><tr><td><code>Ctr+Y</code></td><td>删除光标所在行</td></tr><tr><td><code>Ctr+D</code></td><td>复制光标所在行并将其插入光标位置下面</td></tr><tr><td><code>Ctrl+ +/-</code></td><td>展开、折叠</td></tr><tr><td><code>Ctr+方向键</code></td><td>跳跃词组移动光标</td></tr><tr><td><code>Alt+方向键</code></td><td>切换标签页</td></tr><tr><td><code>Ctr+Shift+U</code></td><td>选中字符改变大小写</td></tr></tbody></table>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;webstorm和idea常用快捷键集合，慢慢添加&lt;br&gt;
-    
-    </summary>
-    
-    
-      <category term="快捷键" scheme="http://www.stormxing.com/tags/%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
-    
-  </entry>
-  
-  <entry>
     <title>如何将web应用部署到云服务器</title>
-    <link href="http://www.stormxing.com/posts/%E5%A6%82%E4%BD%95%E5%B0%86web%E5%BA%94%E7%94%A8%E9%83%A8%E7%BD%B2%E5%88%B0%E6%9C%8D%E5%8A%A1%E5%99%A8/"/>
-    <id>http://www.stormxing.com/posts/如何将web应用部署到服务器/</id>
+    <link href="http://www.stormxing.com/WebServer/"/>
+    <id>http://www.stormxing.com/WebServer/</id>
     <published>2017-11-01T01:34:45.000Z</published>
     <updated>2017-11-06T10:40:01.504Z</updated>
     
@@ -110,8 +90,8 @@
   
   <entry>
     <title>文件引入</title>
-    <link href="http://www.stormxing.com/posts/%E6%96%87%E4%BB%B6%E5%BC%95%E5%85%A5/"/>
-    <id>http://www.stormxing.com/posts/文件引入/</id>
+    <link href="http://www.stormxing.com/links/"/>
+    <id>http://www.stormxing.com/links/</id>
     <published>2017-10-30T03:17:49.000Z</published>
     <updated>2017-11-14T09:05:09.916Z</updated>
     
@@ -131,8 +111,8 @@
   
   <entry>
     <title>安装ubuntu后的一些基础设置</title>
-    <link href="http://www.stormxing.com/posts/%E5%AE%89%E8%A3%85ubuntu%E5%90%8E%E7%9A%84%E4%B8%80%E4%BA%9B%E5%9F%BA%E7%A1%80%E8%AE%BE%E7%BD%AE/"/>
-    <id>http://www.stormxing.com/posts/安装ubuntu后的一些基础设置/</id>
+    <link href="http://www.stormxing.com/ubuntu/"/>
+    <id>http://www.stormxing.com/ubuntu/</id>
     <published>2017-10-27T04:34:06.000Z</published>
     <updated>2017-10-30T03:16:35.000Z</updated>
     
@@ -155,8 +135,8 @@
   
   <entry>
     <title>Hexo+GitHub Pages搭建个人博客</title>
-    <link href="http://www.stormxing.com/posts/Hexo+GitHub%20Pages%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
-    <id>http://www.stormxing.com/posts/Hexo+GitHub Pages搭建个人博客/</id>
+    <link href="http://www.stormxing.com/HexoBlog/"/>
+    <id>http://www.stormxing.com/HexoBlog/</id>
     <published>2017-10-25T13:56:28.000Z</published>
     <updated>2017-10-28T01:22:53.000Z</updated>
     
@@ -177,8 +157,8 @@
   
   <entry>
     <title>Next主题配置及优化</title>
-    <link href="http://www.stormxing.com/posts/Next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E5%8F%8A%E4%BC%98%E5%8C%96/"/>
-    <id>http://www.stormxing.com/posts/Next主题配置及优化/</id>
+    <link href="http://www.stormxing.com/NextTheme/"/>
+    <id>http://www.stormxing.com/NextTheme/</id>
     <published>2017-10-24T13:54:56.000Z</published>
     <updated>2017-10-28T01:24:36.000Z</updated>
     
@@ -197,8 +177,8 @@
   
   <entry>
     <title>Git,GitHub,SSH</title>
-    <link href="http://www.stormxing.com/posts/Git,GitHub,SSH/"/>
-    <id>http://www.stormxing.com/posts/Git,GitHub,SSH/</id>
+    <link href="http://www.stormxing.com/Git,GitHub,SSH/"/>
+    <id>http://www.stormxing.com/Git,GitHub,SSH/</id>
     <published>2017-10-20T13:55:15.000Z</published>
     <updated>2017-11-14T12:02:39.489Z</updated>
     
@@ -221,8 +201,8 @@
   
   <entry>
     <title>xmind</title>
-    <link href="http://www.stormxing.com/posts/xmind/"/>
-    <id>http://www.stormxing.com/posts/xmind/</id>
+    <link href="http://www.stormxing.com/xmind/"/>
+    <id>http://www.stormxing.com/xmind/</id>
     <published>2017-10-12T06:13:19.000Z</published>
     <updated>2017-11-15T02:32:51.441Z</updated>
     
@@ -241,8 +221,8 @@
   
   <entry>
     <title>图集</title>
-    <link href="http://www.stormxing.com/posts/%E5%9B%BE%E9%9B%86/"/>
-    <id>http://www.stormxing.com/posts/图集/</id>
+    <link href="http://www.stormxing.com/Picture/"/>
+    <id>http://www.stormxing.com/Picture/</id>
     <published>2017-09-25T13:54:28.000Z</published>
     <updated>2017-11-14T01:46:39.908Z</updated>
     

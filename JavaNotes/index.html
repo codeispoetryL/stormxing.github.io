@@ -117,7 +117,7 @@
 
 
 
-  <meta name="keywords" content="阅读," />
+  <meta name="keywords" content="javaEE," />
 
 
 
@@ -130,18 +130,18 @@
 
 
 
-<meta name="description" content="近期书单《自控力》《如何阅读一本书》《关键对话》《学会提问》  思特沃克学院阅读习惯培养推荐书单">
-<meta name="keywords" content="阅读">
+<meta name="description" content="MySQL常用SQL语句(一) 数据库">
+<meta name="keywords" content="javaEE">
 <meta property="og:type" content="article">
-<meta property="og:title" content="读书笔记">
-<meta property="og:url" content="http://www.stormxing.com/posts/读书笔记/index.html">
+<meta property="og:title" content="JavaEE学习笔记">
+<meta property="og:url" content="http://www.stormxing.com/JavaNotes/index.html">
 <meta property="og:site_name" content="StormXing">
-<meta property="og:description" content="近期书单《自控力》《如何阅读一本书》《关键对话》《学会提问》  思特沃克学院阅读习惯培养推荐书单">
+<meta property="og:description" content="MySQL常用SQL语句(一) 数据库">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2017-11-22T12:31:13.797Z">
+<meta property="og:updated_time" content="2017-11-20T13:50:42.268Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="读书笔记">
-<meta name="twitter:description" content="近期书单《自控力》《如何阅读一本书》《关键对话》《学会提问》  思特沃克学院阅读习惯培养推荐书单">
+<meta name="twitter:title" content="JavaEE学习笔记">
+<meta name="twitter:description" content="MySQL常用SQL语句(一) 数据库">
 
 
 
@@ -171,13 +171,13 @@
 
 
 
-  <link rel="canonical" href="http://www.stormxing.com/posts/读书笔记/"/>
+  <link rel="canonical" href="http://www.stormxing.com/JavaNotes/"/>
 
 
 
 
 
-  <title>读书笔记 | StormXing</title>
+  <title>JavaEE学习笔记 | StormXing</title>
   
 
 
@@ -353,7 +353,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://www.stormxing.com/posts/读书笔记/">
+    <link itemprop="mainEntityOfPage" href="http://www.stormxing.com/JavaNotes/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="StormXing">
@@ -370,7 +370,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">读书笔记</h1>
+          <h1 class="post-title" itemprop="name headline">JavaEE学习笔记</h1>
         
 
         <div class="post-meta">
@@ -382,8 +382,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="发表于" itemprop="dateCreated datePublished" datetime="2017-11-09T10:18:43+08:00">
-                2017-11-09
+              <time title="发表于" itemprop="dateCreated datePublished" datetime="2017-11-07T13:15:25+08:00">
+                2017-11-07
               </time>
             
 
@@ -419,7 +419,7 @@
                   <span class="post-meta-item-text">字数&#58;</span>
                 
                 <span title="字数">
-                  4,243字
+                  491字
                 </span>
               
 
@@ -444,240 +444,32 @@
       
 
       
-        <h2 id="近期书单"><a href="#近期书单" class="headerlink" title="近期书单"></a><font face="YouYuan">近期书单</font></h2><p>《自控力》<br>《如何阅读一本书》<br>《关键对话》<br>《学会提问》</p>
-<blockquote>
-<p><a href="http://www.jianshu.com/p/0cb14cbe3432" target="_blank" rel="external">思特沃克学院阅读习惯培养推荐书单</a></p>
-</blockquote>
+        <h3 id="MySQL"><a href="#MySQL" class="headerlink" title="MySQL"></a>MySQL</h3><h4 id="常用SQL语句-一"><a href="#常用SQL语句-一" class="headerlink" title="常用SQL语句(一)"></a>常用SQL语句(一)</h4><ul>
+<li>数据库</li>
+</ul>
 <a id="more"></a>
-<h2 id="《自控力》"><a href="#《自控力》" class="headerlink" title="《自控力》"></a><font face="YouYuan">《自控力》</font></h2><h3 id="第一章-认识意志力"><a href="#第一章-认识意志力" class="headerlink" title="第一章 认识意志力"></a><font face="楷体">第一章 认识意志力</font></h3><font color="#FF3333">大多数人意志力薄弱，而缺乏意志力是完成目标最大的绊脚石，我也因经常缺乏意志力而受挫，那么生活真的如此艰难吗？</font>
-
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">mysql -u用户名 -p密码;                            #连接本地数据库</div><div class="line"></div><div class="line">mysql -hip -u用户名 -p密码;                       #连接远程数据库</div><div class="line"></div><div class="line">SHOW DATABASES;                                  #查询数据库</div><div class="line"></div><div class="line">CREATE DATABASE name;                            #创建数据库</div><div class="line"></div><div class="line">DROP DATABASE name;                              #删除数据库</div><div class="line"></div><div class="line">USE name;                                        #切换数据库</div><div class="line"></div><div class="line"><span class="keyword">CREATE</span> <span class="keyword">DATABASE</span> <span class="keyword">name</span></div><div class="line">    DEFAULT CHARACTER SET utf8;                  #创建制定编码格式的数据库   </div><div class="line">                                                 </div><div class="line">SHOW CREATE DATABASE name;                       #查看数据库默认编码格式</div><div class="line"></div><div class="line">ALTER DATABASE name DEFAULT CHARACTER SET utf8;  #修改数据库的字符集  </div><div class="line">                                              </div><div class="line">exti;                                            #退出数据库</div></pre></td></tr></table></figure>
 <ul>
-<li><font color="#00CC33">为了成功而自控，首先需要知道自己为何失败</font>
-
-</li>
+<li>数据表</li>
 </ul>
-<p>我们经常会为了达到某一目的而制定计划，但通常会失败。 因为我们无法预测自己何时何地会由于何种原因<font color="#FF9900">失控</font>。</p>
-<p>所以，<font color="#FF9900">自知之明</font>是自控的基础。认识到自己的意志力存在问题，则是自控的关键。</p>
-<p>同时，我需要知道一点：</p>
-<blockquote>
-<p>每个人都在以某种方式抵制诱惑、癖好、干扰和拖延。这不是个体的弱点或个人的不足，而是普遍的经验，是人所共有的状态。</p>
-</blockquote>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">SHOW TABLES;                                     #查看数据表</div><div class="line"></div><div class="line">DESC name;                                       #查看指定表结构</div><div class="line"></div><div class="line"><span class="keyword">CREATE</span> <span class="keyword">TABLE</span> <span class="keyword">name</span>(</div><div class="line">    字段名称 字段类型,</div><div class="line">    字段名称 字段类型</div><div class="line">);                                               #创建表</div><div class="line"></div><div class="line">DROP TABLE name;                                 #删除表</div><div class="line"></div><div class="line">ALTER TABLE name RENAME new_name;                #修改表名</div><div class="line"></div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> <span class="keyword">name</span> <span class="keyword">ADD</span> <span class="keyword">COLUMN</span> 字段名称 字段类型      #添加表字段</div><div class="line">                                                 </div><div class="line">ALTER TABLE name DROP COLUMN 字段名称;            #删除表字段</div><div class="line"></div><div class="line">ALTER TABLE name MODIFY 字段名称 要修改的类型;     #修改字段类型</div><div class="line"></div><div class="line"><span class="keyword">ALTER</span> <span class="keyword">TABLE</span> <span class="keyword">name</span> <span class="keyword">CHANGE</span> old_name new_name <span class="keyword">old</span>类型;</div><div class="line">                                                 #修改表字段名</div></pre></td></tr></table></figure>
 <ul>
-<li><font color="#00CC33">意志力就是要驾驭“我要做”,“我不要”和“我想要”这三种力量。</font>
-
-</li>
+<li>导入导出SQL文件</li>
 </ul>
-<p>人类很幸运，我们的大脑赋予了我们这三种力量。那么我们又为什么会有意志力？</p>
-<blockquote>
-<p>从人类的进化来看，意志力是生存的最基本要求，大脑也是紧跟时代的脚步才让我们拥有了意志力。</p>
-</blockquote>
-<p>为什么直到今天，意志力仍然重要？</p>
-<blockquote>
-<p>顽强的意志力是一个人最突出的优点。自控力比智商更有助于拿高分，比个人魅力更有助于领导别人，比同理心更有助于维持婚姻幸福。</p>
-</blockquote>
-<p>“我要做”,“我不要”和“我想要”的神经学原理：</p>
-<blockquote>
-<p>现代人拥有意志力，得益于远古时期的人类。我们的前额皮脂进化了。前额皮质扩大之后，就有了新的功能。他能控制我们去关注什么,想些什么，甚至能影响我们的感觉。前额皮质并不是挤成一团的灰质，而是分成了三个区域，分管“我要做”,“我不要”和“我想要”这三种力量。</p>
-</blockquote>
+<p>从本地导入sql文件，先创建数据库，然后退出数据库后执行：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysql -h localhost -u root -p database_name &lt; d:\database_name.sql</div></pre></td></tr></table></figure>
+<p>从本地导出sql文件，退出数据库后执行：</p>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">mysqldump -h localhost -u root -p test &gt;d:\database_name.sql</div></pre></td></tr></table></figure>
+<p>更多操作可参考:<br><a href="http://www.cnblogs.com/cnkenny/archive/2009/04/22/1441297.html" target="_blank" rel="external">http://www.cnblogs.com/cnkenny/archive/2009/04/22/1441297.html</a></p>
 <ul>
-<li><font color="#00CC33">意志力的第一法则是认识自己</font>
-
-</li>
+<li>新建一个<code>user</code>表，有两个字段，<code>name</code>和<code>age</code></li>
 </ul>
-<p>现代社会充斥着诱惑和刺激，不断冲击着人们的自控力。而注意力分散的人更容易向诱惑屈服。<br>但是</p>
-<font color="#FF9900">如果心里在想其他事，那么冲动就会主导你的选择</font>
-
-<p>如果想要更强的自控力，就得有更多的自我意识。</p>
-<ul>
-<li><font color="#00CC33">训练大脑可以增强意志力</font>
-
-</li>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">INSERT INTO USER VALUES (1,'张三',20);           #插入数据</div><div class="line"></div><div class="line">INSERT INTO USER(id,NAME) VALUES (2,'李四');     #插入指定字段数据</div><div class="line"></div><div class="line">                                                 #修改数据</div><div class="line">UPDATE USER SET NAME='ST',age=10 WHERE id = 2;   #修改id为2的姓名为ST,年龄为10</div><div class="line"></div><div class="line">                                                 #删除数据</div><div class="line">DELETE FROM USER WHERE id=2;                     #删除id为2的数据</div><div class="line"></div><div class="line">SELECT * FROM user;                              #查询表所有列数据</div><div class="line"></div><div class="line">SELECT id,NAME FROM user;                        #查询指定列数据</div></pre></td></tr></table></figure>
+<h3 id="jdbc"><a href="#jdbc" class="headerlink" title="jdbc"></a>jdbc</h3><ul>
+<li>使用java代码（程序）发送sql语句的技术，就是jdbc.</li>
+<li>jdbc也是sun公司设计的一套通用的java语言操作不同数据库的接口。</li>
 </ul>
-<font color="#FF9900">冥想</font>不仅可以提高自控力，还可以提升注意力、管理压力、克制冲动和认识自我的能力。<br><br><font color="#FF9900">冥想的技巧</font>
 
-<blockquote>
-<p>1.原地不动，安静坐好。<br>2.注意呼吸，闭上眼睛，吸气时难熬默念“吸”，呼气时，大脑默念“呼”，如果走神，就重新将注意力集中到呼吸上，然后反复训练。<br>3.感受呼吸，弄清自己是怎么走神的。几分钟后就可以不再默念“呼”、“吸”了，感受自然的状态。</p>
-</blockquote>
-<p>刚开始的时候每天五分钟，之后试着加到10~15分钟。如果冥想时感觉糟糕，那么它就更有利于自控。</p>
-<h3 id="第二章-意志力的本能"><a href="#第二章-意志力的本能" class="headerlink" title="第二章 意志力的本能"></a><font face="楷体">第二章 意志力的本能</font></h3><font color="#FF3333">人生来就能抵制奶闹蛋糕的诱惑：当人需要意志力的时候，可以学会将自己的生理机能调整到这种状态。这样，当你在面临诱惑的时候，自控力就成了本能反应。</font>
-
-<ul>
-<li><font color="#00CC33">正确认识应激反应</font>
-
-</li>
-</ul>
-<p>当人类面临危险时，应激反应会让人更加冲动，不会浪费能量去做那些无关生死的事，无论是体力还是脑力都不会浪费。</p>
-<p>当人处在非常安逸的状态时，真正的威胁将会来源于自己的内心。应激反应也会让我们面临最原始的欲望，而这正是我们当下最不愿意的看到的。<br>所以，此时，<font color="#FF9900">自控力需要另一种自救的方式来对抗这种威胁。</font></p>
-<ul>
-<li><font color="#00CC33">自控力的另一种自救方式：三思而后行</font>       
-
-</li>
-</ul>
-<p>三思而后行反应并不会向肌肉输送能量，它只能调整大脑状态。当人需要自控的时候，大脑的能量供应会增加，从而帮助前额皮质发挥意志力。</p>
-<p>其实，当人在进行“三思而后行时”，身体已经开始对奶酪做出了反应。会让人的身体进入更平静的状态。这样做的目的是避免冲动行事，提供更多的时间去深思熟虑想办法。</p>
-<ul>
-<li><font color="#00CC33">通过呼吸实现自控</font>
-
-</li>
-</ul>
-<p>将呼吸频率放慢能够提前激活前额皮质、提高心率变异度，有助于身心从压力状态调整到自控状态。每天进行20分钟的放慢呼吸练习，就能提高心率变异度，降低欲望和抑郁程度。<br>每当面临意志力挑战的时候都可以尝试这种方法。</p>
-<ul>
-<li><font color="#00CC33">意志力挑战——早睡</font> 
-
-</li>
-</ul>
-<p>如果人一周都晚睡早起了，那么周末补个好觉就能恢复意志力。即便前一天晚上没有睡好，打个小盹也能让人重新集中注意力、恢复自控。</p>
-<p>那么，当<font color="#FF9900">睡眠成了意志力挑战</font>时,该如何自控？</p>
-<p>如果将“获得更多的额睡眠”定义为<font color="#FF9900">我不要</font>，那么一切晚睡的理由都说得通了。真正的问题并不是强迫自己去睡觉，而是远离那些让自己没发睡觉的事。</p>
-<p>如果没有办法早点入睡，那就不要去想睡觉这件事，想一想什么是<font color="#FF9900">我想要</font>。</p>
-<p>这个意志力法则同样适用于你想逃避或拖延的事。</p>
-<ul>
-<li><font color="#00CC33">意志力的死敌——压力</font> 
-
-</li>
-</ul>
-<p>科学洞见告诉我们，压力是意志力的死敌，很多时候我们以为压力是解决问题的唯一途径，我们甚至想方设法的增加自己的压力。比如，拖到最后一分钟。</p>
-<p>但从长远上看，没什么比压力更消耗意志力了。压力让你关注及时的、短期的目标和结果，而自控力则需要大脑具有更广阔的视野。<br>学会如何管理压力是提高意志力的重要组成部分。</p>
-<font color="#FF9900">当我们面临的意志力挑战过于强大时，容易失去信心。容易产生压力，如果我们要能在这种情况下自控，就需要放松自己，保证有能量做最好的自己。</font>
-
-<h3 id="第三章-自控力的极限"><a href="#第三章-自控力的极限" class="headerlink" title="第三章 自控力的极限"></a><font face="楷体">第三章 自控力的极限</font></h3><font color="#FF3333">为什么自控力存在局限？</font>
-
-<ul>
-<li><p>我们的大脑里存在类似“自控力肱肉”的东西。虽然大脑是一个器官，是一块肌肉，但反复自控还是会让大脑疲惫。</p>
-</li>
-<li><p>每次是用意志力之后，大脑的自控力系统活跃程度就会降低。</p>
-</li>
-</ul>
-<font color="#FF3333">能量危机</font>
-
-<ul>
-<li>大脑可能是个小气鬼。在某个特定时刻，大脑只能提供很少的能量，它可以在细胞中存储一些能量，但这部分能量主要依赖血液中不断流动的葡萄糖。当大脑发现能量减少时，他便会紧张，它就会节约资源。</li>
-</ul>
-<font color="#FF9900">那么，第一项要削减的开支是什么？——自控。</font>
-
-<p>自控时所有大脑活动中消耗最高的一项，为了保存能量，大脑不愿意给其充足的能量去抵抗诱惑、集中注意力、控制情绪。</p>
-<font color="#FF9900">大脑在能量降低时拒绝自控或许还有别的原因——饥饿难耐</font>
-
-<ul>
-<li><p>能量不足时，大脑会选择满足当下的需求；资源充足时，大脑才会转向选择长期的投资。</p>
-</li>
-<li><p>在一个无法预测食物供应的世界里，这是一个优点。但在现代社会中，失控实际上是大脑战略性毛线本能的延续。</p>
-</li>
-<li><p>为了不会饿死，大脑冒了一个更大的风险，处于一种更冲动的状态。</p>
-</li>
-</ul>
-<font color="#FF3333">如何解决能量危机？</font>
-
-<ul>
-<li>训练“意志力肌肉”</li>
-</ul>
-<p>做一些自己都忍受不了的事情——假装自控。之后大脑就会学会如何“三思而后行”。</p>
-<h3 id="第四章-道德许可证"><a href="#第四章-道德许可证" class="headerlink" title="第四章 道德许可证"></a><font face="楷体">第四章 道德许可证</font></h3><font color="#FF3333">从圣人到罪人的距离也许只有一步之遥</font>
-
-<ul>
-<li><p>任何让你对自己的美德感到满意的事，即便只是想想你做过的善事，都会允许我们冲动行事。</p>
-</li>
-<li><p>某时某刻，自我放纵变成了我们引以为傲的事情。</p>
-</li>
-<li><p>“道德许可”最糟糕的部分并不是它可疑的逻辑，而是它会诱使我们做出背离自己最大利益的事。他让我们相信，放弃节食、打破预算等不良行为都是对自己的“款待”。<br>对于大脑来说，这是很可怕的诱惑力，能让“想做的事”变成“必做的事”。</p>
-</li>
-</ul>
-<font color="#FF9900">只因为我们把对美的的追求理想化了。</font><br><br><font color="#FF3333">为了避免“道德许可的陷阱，我们要把真正的道德困境和普通的困难区分开来。”</font>
-
-<p>同时我们需要记住以下两点：</p>
-<ul>
-<li><font color="#FF9900">取消许可，牢记理由，“三思而后行”</font><br></li>
-<li><font color="#FF9900">敢于向明天赊账，今天犯错，明天补救。</font><br></li>
-</ul>
-<font color="#FF3333">别把明天补救当成拖延的理由</font>
-
-<ul>
-<li>乐观主义精神是为我们提供更多可以提高自己的机会，而不是总觉得明天总有时间做。否则，时间会总是不够用，明天也变得和今天一样毫无区别。</li>
-</ul>
-<font color="#FF3333">被虚假的光环笼罩，更需认清自己</font>
-
-<p>看到打折商品是不是会有购买的冲动？是否考虑了自己是否真正需要。</p>
-<font face="幼圆"><strong>我们需要认清自己的目标，牢记自己真正想要的东西，不要被道德准则束缚。<br>要想做到始终如一，我们就需要认同目标本身。</strong></font>
-
-<h3 id="第五章-别把渴望当幸福"><a href="#第五章-别把渴望当幸福" class="headerlink" title="第五章 别把渴望当幸福"></a><font face="楷体">第五章 别把渴望当幸福</font></h3><font color="#FF3333">“我想要”的神经生物学原理</font>
-
-<p>奖励系统是如何迫使我们行动的?</p>
-<ul>
-<li>当大脑发现获得奖励的机会是，他就会释放出叫做多巴胺的神经递质。多巴胺会告诉大脑其他的部分他们需要注意什么，怎样才能让贪婪的我们得手。大量的多巴胺并不能产生快乐的感觉，那种感觉更像是一种激励。我们会觉得清醒、警醒、着迷。我们发现了如何才能获得快乐，而且愿意为了获得这种感觉付出努力。</li>
-</ul>
-<font color="#FF9900">我们需要多巴胺</font>
-
-<ul>
-<li><p>现代科技“及时行乐”的特点，加上原始的激励系统，就让我们成了多巴胺的奴隶，从此欲罢不能。</p>
-</li>
-<li><p>你知道什么会刺激你的多巴胺分泌？食物？酒精？购物？还是其他东西？这一周，试着观察是什么吸引了你的注意力。是什么给你奖励的承诺，强迫你去追求满足感。</p>
-</li>
-</ul>
-<font color="#FF9900">让多巴胺发挥作用</font>
-
-<ul>
-<li>人们一直以来都在用奖励承诺来克服癖好。<br>为此，我们可以做一个实验：为了“我愿意”挑战分泌多巴胺。<br>找到一些承诺的奖励去做一件事，就有了动力。</li>
-</ul>
-<font color="#FF9900">欲望的压力</font>
-
-<ul>
-<li><p>大部分人会更关注对快乐的承诺，而不关注多巴胺刺激欲望时感觉到的不快乐。</p>
-</li>
-<li><p>大多数情况，人们会误把奖励的承诺当幸福。<br>奖励的承诺有很大的力量，它会让我们继续追求那些不会带给我们快乐的东西，会让我们消费那些不会带来满足感，只会带来更多痛苦的东西。追求奖励是多巴胺的重要目标，所以，即便你经历的事物和原本承诺的并不相符，它也不会给你释放“停下来”的信号。</p>
-</li>
-</ul>
-<font color="#FF3333">当我们把自己从错误的奖励承诺中解放出来时，我们常常发现，我们误以为的快乐源泉，其实正是痛苦的根源。</font>
-
-<h3 id="第六章-情绪与诱惑"><a href="#第六章-情绪与诱惑" class="headerlink" title="第六章 情绪与诱惑"></a><font face="楷体">第六章 情绪与诱惑</font></h3><font color="#FF3333">为什么压力会勾起欲望？</font>
-
-<ul>
-<li>当我们情绪低落时，我们的大脑更容易受到诱惑。当人感到压力时，我们的大脑会指引我们去做能够带给我们快乐的事。</li>
-</ul>
-<font color="#FF3333">当我们说出“那又如何”时，为什么罪恶感不起作用</font>
-
-<ul>
-<li>导致更多堕落的行为并不是第一次的放弃，而是第一次放弃后产生的羞耻感、罪恶感、失控感和绝望感。一旦你陷入了这样的循环，似乎除了继续做下去，就没有别的出路了。当你又一次责备自己屈于诱惑的时候，往往会带来更多意志力的失效，造成更多的痛苦。但是，你寻求安慰的东西并不能中断这个循环，他只会给你带来更深切的罪恶感。</li>
-</ul>
-<font color="#FF3333">打破“那又如何”循环——原谅自己</font>
-
-<ul>
-<li>自我谅解能帮助人们从错误中恢复过来，因为它能消除人们想到失败是的羞愧和痛苦。“那又如何”效应是想要摆脱失败后的情绪低落。但如果没有了罪恶感和自我批评，就没有需要摆脱的东西了。这就是说，思考为什么会失败就变容易了，而你也很难再一次走向失败了。</li>
-</ul>
-<font color="#FF3333">改善心情</font>
-
-<ul>
-<li><p>情绪低落会导致我们更容易屈服于诱惑。夜里会引起欲望，让我们的大脑更容易受到诱惑。如果有东西提醒我们不能用绳，就会让我们从食物、购物或香烟中寻找慰藉。</p>
-</li>
-<li><p>为了避免压力导致的意志力失效，我们需要找到能让我们真正快乐的东西，而不是虚假的奖励承诺，也不是空洞的改变承诺。我们需要循序自己做真正让自己快乐的事，原理那些与我们生活无关的压力根源。</p>
-</li>
-</ul>
-<font color="#FF9900">当我们遇到挫折时，我们需要原谅曾经的失败，不要把它作为屈服或放弃的借口。想要增强自控力，自我同情比自我打击有效得多。</font>
-
-<h3 id="第七章-及时享乐的经济学"><a href="#第七章-及时享乐的经济学" class="headerlink" title="第七章 及时享乐的经济学"></a><font face="楷体">第七章 及时享乐的经济学</font></h3><font color="#FF3333">不要给未来的回报打折</font>
-
-<ul>
-<li>给“未来的回报”打折是人的天性，每个人打的着有所不同。有些人打的折很低，就像高级商店从不降价出售最好的商品一样。这些人心里牢记更大的奖励，并会等待它的到来。另一些人打的折则很高。他们不能抵抗“即时满足感”的承诺，就像打一折的清仓大甩卖一样，只为赶快回笼资金。你打的折时多时少，很大程度上据定了你长期的健康状况和你获得的成功。</li>
-</ul>
-<font color="#FF3333">对未来的自己做出预先的承诺</font>
-
-<p>要做好未来的自己，需要对受诱惑的自己施加压力。有以下几种方法：</p>
-<ul>
-<li><p>做好拒绝诱惑的准备，在未来的自我被诱惑蒙蔽之前，提前做出选择。</p>
-</li>
-<li><p>让改变偏好变得更难。就像科尔蒂斯“破釜沉舟”一样，不要让自己轻易屈服于诱惑。当自己受到又或是，制造延迟或设置障碍，给自己一些时间来应对诱惑。</p>
-</li>
-<li><p>激励未来的自己。</p>
-</li>
-</ul>
-<font color="#FF3333">不要等待未来的自己</font>
-
-<ul>
-<li><p>如果我们真的指望未来的自己能那么崇高，我们确实可以相信，未来的自己能做好所有的是。但更典型的情况是，当我们到了未来，理想中“未来的自己”却不见了，最后做决定的还是毫无改变的曾经的自己。即便我们现在已经失去了自控力，我们仍然愚蠢的希望未来的自己不会面临冲突。</p>
-</li>
-<li><p>当我们思考未来时，我们能预测到未来的自己和想象中的有什么不同。未来的奖励似乎并不那么有诱惑力，所有我们选择了及时的满足感。我们无法预测自己会怎么受到诱惑、怎么被分散注意力，所以我们无法坚定自己的目标。如果我们想做出更明智的决定，就要更好地理解和支持未来的自己。</p>
-</li>
-</ul>
-<font color="#FF9900">我们还需记住，为现在的行为承担后果的，看似是未来的自己，实际上还是我们自己。未来的自己会对我们现在的努力感激不尽。</font>
       
     </div>
     
@@ -697,7 +489,7 @@
   </li>
   <li class="post-copyright-link">
     <strong>本文链接：</strong>
-    <a href="http://www.stormxing.com/posts/读书笔记/" title="读书笔记">http://www.stormxing.com/posts/读书笔记/</a>
+    <a href="http://www.stormxing.com/JavaNotes/" title="JavaEE学习笔记">http://www.stormxing.com/JavaNotes/</a>
   </li>
   <li class="post-copyright-license">
     <strong>版权声明： </strong>
@@ -712,7 +504,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/阅读/" rel="tag"># 阅读</a>
+            <a href="/tags/javaEE/" rel="tag"># javaEE</a>
           
         </div>
       
@@ -725,8 +517,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/posts/JavaEE学习笔记/" rel="next" title="JavaEE学习笔记">
-                <i class="fa fa-chevron-left"></i> JavaEE学习笔记
+              <a href="/WebServer/" rel="next" title="如何将web应用部署到云服务器">
+                <i class="fa fa-chevron-left"></i> 如何将web应用部署到云服务器
               </a>
             
           </div>
@@ -734,6 +526,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/ReadNote1/" rel="prev" title="读书笔记">
+                读书笔记 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -819,7 +615,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">11</span>
+                  <span class="site-state-item-count">10</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -832,7 +628,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">15</span>
+                  <span class="site-state-item-count">14</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -912,7 +708,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#近期书单"><span class="nav-number">1.</span> <span class="nav-text">近期书单</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#《自控力》"><span class="nav-number">2.</span> <span class="nav-text">《自控力》</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#第一章-认识意志力"><span class="nav-number">2.1.</span> <span class="nav-text">第一章 认识意志力</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第二章-意志力的本能"><span class="nav-number">2.2.</span> <span class="nav-text">第二章 意志力的本能</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第三章-自控力的极限"><span class="nav-number">2.3.</span> <span class="nav-text">第三章 自控力的极限</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第四章-道德许可证"><span class="nav-number">2.4.</span> <span class="nav-text">第四章 道德许可证</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第五章-别把渴望当幸福"><span class="nav-number">2.5.</span> <span class="nav-text">第五章 别把渴望当幸福</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第六章-情绪与诱惑"><span class="nav-number">2.6.</span> <span class="nav-text">第六章 情绪与诱惑</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#第七章-及时享乐的经济学"><span class="nav-number">2.7.</span> <span class="nav-text">第七章 及时享乐的经济学</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#MySQL"><span class="nav-number">1.</span> <span class="nav-text">MySQL</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#常用SQL语句-一"><span class="nav-number">1.1.</span> <span class="nav-text">常用SQL语句(一)</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#jdbc"><span class="nav-number">2.</span> <span class="nav-text">jdbc</span></a></li></ol></div>
             
 
           </div>
@@ -946,7 +742,7 @@
     
       <span class="post-meta-item-text">博客全站共&#58;</span>
     
-    <span title="博客全站共">8.8k字</span>
+    <span title="博客全站共">8.7k字</span>
   
 </div>
 <!--
