@@ -4,6 +4,23 @@
 
     
   <url>
+    <loc>http://www.stormxing.com/selfcontrol/</loc>
+    <lastmod>2017-11-28T01:10:34.825Z</lastmod>
+    <data>
+        <display>
+        <title>读书笔记——《自控力》</title>
+        <pubTime>2017-11-09T02:18:43.000Z</pubTime>
+        
+        <tag>阅读</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.stormxing.com/HexoBlog/</loc>
     <lastmod>2017-11-27T12:09:41.624Z</lastmod>
     <data>
@@ -14,23 +31,6 @@
         <tag>Hexo</tag>
          
         <tag>Github Pages</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.stormxing.com/ReadNote1/</loc>
-    <lastmod>2017-11-22T12:31:13.797Z</lastmod>
-    <data>
-        <display>
-        <title>读书笔记</title>
-        <pubTime>2017-11-09T02:18:43.000Z</pubTime>
-        
-        <tag>阅读</tag>
          
          
            
