@@ -4,7 +4,41 @@
 
     
   <url>
-    <loc>http://www.stormxing.com/selfcontrol/</loc>
+    <loc>http://www.stormxing.com//posts/mysql/</loc>
+    <lastmod>2017-11-28T14:42:11.471Z</lastmod>
+    <data>
+        <display>
+        <title>mysql</title>
+        <pubTime>2017-11-07T05:15:25.000Z</pubTime>
+        
+        <tag>数据库</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.stormxing.com//posts/connect/</loc>
+    <lastmod>2017-11-28T02:41:27.447Z</lastmod>
+    <data>
+        <display>
+        <title>读书笔记——《关键对话》</title>
+        <pubTime>2017-11-28T02:40:14.000Z</pubTime>
+        
+        <tag>阅读</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://www.stormxing.com//posts/selfcontrol/</loc>
     <lastmod>2017-11-28T02:06:32.450Z</lastmod>
     <data>
         <display>
@@ -21,7 +55,7 @@
 
     
   <url>
-    <loc>http://www.stormxing.com/HexoBlog/</loc>
+    <loc>http://www.stormxing.com//posts/hexo/</loc>
     <lastmod>2017-11-27T12:09:41.624Z</lastmod>
     <data>
         <display>
@@ -40,24 +74,7 @@
 
     
   <url>
-    <loc>http://www.stormxing.com/JavaNotes/</loc>
-    <lastmod>2017-11-20T13:50:42.268Z</lastmod>
-    <data>
-        <display>
-        <title>JavaEE学习笔记</title>
-        <pubTime>2017-11-07T05:15:25.000Z</pubTime>
-        
-        <tag>javaEE</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>http://www.stormxing.com/xmind/</loc>
+    <loc>http://www.stormxing.com//posts/xmind/</loc>
     <lastmod>2017-11-15T02:32:51.441Z</lastmod>
     <data>
         <display>
@@ -74,7 +91,7 @@
 
     
   <url>
-    <loc>http://www.stormxing.com/Git,GitHub,SSH/</loc>
+    <loc>http://www.stormxing.com//posts/git/</loc>
     <lastmod>2017-11-14T12:02:39.489Z</lastmod>
     <data>
         <display>
@@ -95,7 +112,7 @@
 
     
   <url>
-    <loc>http://www.stormxing.com/links/</loc>
+    <loc>http://www.stormxing.com//posts/links/</loc>
     <lastmod>2017-11-14T09:05:09.916Z</lastmod>
     <data>
         <display>
@@ -112,7 +129,7 @@
 
     
   <url>
-    <loc>http://www.stormxing.com/Picture/</loc>
+    <loc>http://www.stormxing.com//posts/picture/</loc>
     <lastmod>2017-11-14T01:46:39.908Z</lastmod>
     <data>
         <display>
@@ -129,7 +146,7 @@
 
     
   <url>
-    <loc>http://www.stormxing.com/WebServer/</loc>
+    <loc>http://www.stormxing.com//posts/server/</loc>
     <lastmod>2017-11-06T10:40:01.504Z</lastmod>
     <data>
         <display>
@@ -146,7 +163,7 @@
 
     
   <url>
-    <loc>http://www.stormxing.com/ubuntu/</loc>
+    <loc>http://www.stormxing.com//posts/ubuntu/</loc>
     <lastmod>2017-10-30T03:16:35.000Z</lastmod>
     <data>
         <display>
@@ -165,7 +182,7 @@
 
     
   <url>
-    <loc>http://www.stormxing.com/NextTheme/</loc>
+    <loc>http://www.stormxing.com//posts/next/</loc>
     <lastmod>2017-10-28T01:24:36.000Z</lastmod>
     <data>
         <display>
