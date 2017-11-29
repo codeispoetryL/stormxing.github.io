@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.stormxing.com/posts/mysql/</loc>
+    <loc>http://www.stormxing.com/posts/thinking/</loc>
     
-    <lastmod>2017-11-28T14:42:11.471Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.stormxing.com/posts/connect/</loc>
-    
-    <lastmod>2017-11-28T02:41:27.447Z</lastmod>
+    <lastmod>2017-11-29T03:49:35.502Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.stormxing.com/posts/selfcontrol/</loc>
     
-    <lastmod>2017-11-28T02:06:32.450Z</lastmod>
+    <lastmod>2017-11-29T03:35:00.341Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.stormxing.com/about/index.html</loc>
+    
+    <lastmod>2017-11-28T14:49:09.687Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.stormxing.com/posts/mysql/</loc>
+    
+    <lastmod>2017-11-28T14:42:11.471Z</lastmod>
     
   </url>
   
@@ -82,13 +89,6 @@
     <loc>http://www.stormxing.com/tags/index.html</loc>
     
     <lastmod>2017-10-25T15:24:46.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.stormxing.com/about/index.html</loc>
-    
-    <lastmod>2017-10-18T08:18:10.000Z</lastmod>
     
   </url>
   
