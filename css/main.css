@@ -1839,7 +1839,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #4ef61c;
+  background: #4ff628;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2933,7 +2933,7 @@ blockquote {
   -moz-box-shadow: 0 0 10px rgba(202,203,204,0.5);
 }
 code {
-  color: #c7254e;
+  color: #ff722c;
   background: #f9f2f4;
 }
 .highlight,

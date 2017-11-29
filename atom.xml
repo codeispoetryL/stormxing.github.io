@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.stormxing.com/"/>
-  <updated>2017-11-29T03:49:35.502Z</updated>
+  <updated>2017-11-29T07:54:04.550Z</updated>
   <id>http://www.stormxing.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://www.stormxing.com//posts/thinking/"/>
     <id>http://www.stormxing.com//posts/thinking/</id>
     <published>2017-11-28T02:40:14.000Z</published>
-    <updated>2017-11-29T03:49:35.502Z</updated>
+    <updated>2017-11-29T07:54:04.550Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p><a href="http://www.jianshu.com/p/0cb14cbe3432" target="_blank" rel="external">思特沃克学院阅读习惯培养推荐书单</a></p></blockquote><font face="YouYuan" style="font-size: 22px">《程序员的思维修炼》［美］Andy Hunt</font><h3 id="从新手到专家的历程"><a href="#从新手到专家的历程" class="headerlink" title="从新手到专家的历程"></a><font face="楷体">从新手到专家的历程</font></h3><p>制造问题的思维方式无法用来解决问题。  ——阿尔伯特·爱因斯坦</p><font color="#FF3333">什么是新手？什么是专家？新手到专家需要经历那些阶段？</font><br><a id="more"></a><br>#### 德雷福斯模型的5个阶段<br>##### 新手<br>新手的定义：<br>- 新手指在该技能领域经验很少或者根本没有经验。（这里提到的经验，指的是通过实施这项技术促进了思维的改变。）<br>新手的特点：<br>- 新手非常在乎他们能否成功。没有太多经验指导他们，他们不知道自己的行为是对是错。新手不是特别想要学习，他们只是想实现一个立竿见影的目标。他们不知道如何应付错误，所以出错的时候，他们非常容易慌乱。<br>- 但是，如果给新手提供与情境无关的规则去参照，他们就会变得能干起来。也就是说，需要这种形式的规则：“当X发生时，执行Y。”换言之，需要一份指令清单。<br><br>##### 高级新手<br>##### 胜任者<br>##### 精通者<br>##### 专家<br><br><br><br><br><br><br><br><br><br><font color="#FF3333"></font><br><font color="#FF9900"></font><br><font face="楷体"></font><br><font face="幼圆"></font>]]></content>
+    <content type="html"><![CDATA[<blockquote><p><a href="http://www.jianshu.com/p/0cb14cbe3432" target="_blank" rel="external">思特沃克学院阅读习惯培养推荐书单</a></p></blockquote><font face="YouYuan" style="font-size: 22px">《程序员的思维修炼》［美］Andy Hunt</font><h3 id="从新手到专家的历程"><a href="#从新手到专家的历程" class="headerlink" title="从新手到专家的历程"></a>从新手到专家的历程</h3><p>制造问题的思维方式无法用来解决问题。  ——阿尔伯特·爱因斯坦</p><p><font color="#FF3333">什么是新手？什么是专家？新手到专家需要经历那些阶段？</font><a id="more"></a><br><strong>德雷福斯模型的5个阶段</strong></p><h4 id="新手"><a href="#新手" class="headerlink" title="新手"></a>新手</h4><p><strong>新手的定义：</strong></p><ul><li>新手指在该技能领域经验很少或者根本没有经验。（这里提到的经验，指的是通过实施这项技术促进了思维的改变。）</li></ul><p><strong>新手的特点：</strong></p><ul><li>新手非常在乎他们能否成功。没有太多经验指导他们，他们不知道自己的行为是对是错。新手不是特别想要学习，他们只是想实现一个立竿见影的目标。他们不知道如何应付错误，所以出错的时候，他们非常容易慌乱。</li><li>但是，<code>如果给新手提供与情境无关的规则去参照，他们就会变得能干起来。</code>也就是说，需要这种形式的规则：“当X发生时，执行Y。”换言之，需要一份指令清单。</li></ul><p><strong>思考</strong></p><ul><li>指令清单可以帮助新手更好的完成任务</li><li>但指令清单不能一五一十的将所有事情解释清楚，一旦事情超出设想，则需要制定更多的规则去解释指令。</li><li>所以，规则只能让你启程，不会让你走的更远。</li></ul><h4 id="高级新手"><a href="#高级新手" class="headerlink" title="高级新手"></a>高级新手</h4><p>一旦经过新手的历练，人们开始以高级新手的角度看待问题。<br><strong>高级新手的特点：</strong></p><ul><li>高级新手能够开始多多少少地摆脱固定的规则。他们可以独自尝试任务，但仍难以解决问题。</li><li>高级新手不想要<code>全局思维</code>，不理会一些事，觉得与自己的工作不相关。</li></ul><h4 id="胜任者"><a href="#胜任者" class="headerlink" title="胜任者"></a>胜任者</h4><ul><li>从业者现在能够建立问题域的概念模型，并有效地使用它们。他们可以独立解决自己遇到的问题，并开始考虑如何解决新的问题——那些他们之前没有遇到的问题。</li><li>但是即使在这一水平，人们仍然无法按照我们希望的方式来应用敏捷方法——大家还没有足够的能力反思和自我纠正。</li></ul><h4 id="精通者"><a href="#精通者" class="headerlink" title="精通者"></a>精通者</h4><ul><li>精通水平的从业者需要全局思维。他们将围绕这个技术，寻找并想了解更大的概念框架。</li><li>处于精通水平的从业人员有一项重大突破：他们<code>能够纠正以往不好的工作表现。他们会反思以前是如何做的，并修改其做法，期望下一次表现得更好</code>。</li></ul><h4 id="专家"><a href="#专家" class="headerlink" title="专家"></a>专家</h4><ul><li>专家是各个领域知识和信息的主要来源。他们是当代的巫师。</li><li>专家根据直觉工作，而不需要理由。专家非常擅长做有针对性的特征匹配。</li></ul><h3 id="认识你的大脑"><a href="#认识你的大脑" class="headerlink" title="认识你的大脑"></a>认识你的大脑</h3>]]></content>
     
     <summary type="html">
     
@@ -32,8 +32,8 @@
 &lt;/blockquote&gt;
 &lt;font face=&quot;YouYuan&quot; style=&quot;font-size: 22px&quot;&gt;《程序员的思维修炼》［美］Andy Hunt&lt;/font&gt;
 
-&lt;h3 id=&quot;从新手到专家的历程&quot;&gt;&lt;a href=&quot;#从新手到专家的历程&quot; class=&quot;headerlink&quot; title=&quot;从新手到专家的历程&quot;&gt;&lt;/a&gt;&lt;font face=&quot;楷体&quot;&gt;从新手到专家的历程&lt;/font&gt;&lt;/h3&gt;&lt;p&gt;制造问题的思维方式无法用来解决问题。  ——阿尔伯特·爱因斯坦&lt;/p&gt;
-&lt;font color=&quot;#FF3333&quot;&gt;什么是新手？什么是专家？新手到专家需要经历那些阶段？&lt;/font&gt;&lt;br&gt;
+&lt;h3 id=&quot;从新手到专家的历程&quot;&gt;&lt;a href=&quot;#从新手到专家的历程&quot; class=&quot;headerlink&quot; title=&quot;从新手到专家的历程&quot;&gt;&lt;/a&gt;从新手到专家的历程&lt;/h3&gt;&lt;p&gt;制造问题的思维方式无法用来解决问题。  ——阿尔伯特·爱因斯坦&lt;/p&gt;
+&lt;p&gt;&lt;font color=&quot;#FF3333&quot;&gt;什么是新手？什么是专家？新手到专家需要经历那些阶段？&lt;/font&gt;
     
     </summary>
     
