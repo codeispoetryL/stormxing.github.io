@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.stormxing.com/posts/database/</loc>
+    
+    <lastmod>2017-11-29T12:56:08.601Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.stormxing.com/posts/thinking/</loc>
     
     <lastmod>2017-11-29T07:54:04.550Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>http://www.stormxing.com/about/index.html</loc>
     
     <lastmod>2017-11-28T14:49:09.687Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.stormxing.com/posts/mysql/</loc>
-    
-    <lastmod>2017-11-28T14:42:11.471Z</lastmod>
     
   </url>
   

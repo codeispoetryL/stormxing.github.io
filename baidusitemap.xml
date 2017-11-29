@@ -4,6 +4,23 @@
 
     
   <url>
+    <loc>http://www.stormxing.com//posts/database/</loc>
+    <lastmod>2017-11-29T12:56:08.601Z</lastmod>
+    <data>
+        <display>
+        <title>数据库(MySQL+Oracle+Sql Server)</title>
+        <pubTime>2017-11-07T05:15:25.000Z</pubTime>
+        
+        <tag>数据库</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>http://www.stormxing.com//posts/thinking/</loc>
     <lastmod>2017-11-29T07:54:04.550Z</lastmod>
     <data>
@@ -37,23 +54,6 @@
     </url>
 
     
-    
-  <url>
-    <loc>http://www.stormxing.com//posts/mysql/</loc>
-    <lastmod>2017-11-28T14:42:11.471Z</lastmod>
-    <data>
-        <display>
-        <title>mysql</title>
-        <pubTime>2017-11-07T05:15:25.000Z</pubTime>
-        
-        <tag>数据库</tag>
-         
-         
-           
-        </display>
-    </data>
-    </url>
-
     
   <url>
     <loc>http://www.stormxing.com//posts/hexo/</loc>
